@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Clivax_v1.0.0",
+    "\\Clivax_v1.0.0\\HTML",
+    "\\Clivax_v1.0.0\\HTML\\dist"
   ],
-  "SelectedNode": "\\C:\\Users\\heaa1\\Source\\Repos\\CapaProyecto",
+  "SelectedNode": "\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html",
   "PreviewInSolutionExplorer": false
 }
