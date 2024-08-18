@@ -11,7 +11,7 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/AltosAbejonal.jpeg">
 
-    
+
     <!-- dark layout js -->
     <script src="assets/js/pages/layout.js"></script>
 
@@ -334,13 +334,9 @@
                                     <div class="card-body p-0">
                                         <div class="grid-nav grid-nav-flush grid-nav-action grid-nav-no-rounded">
                                             <div class="grid-nav-row">
-                                                <a href="form-DatosPerfil.html" class="grid-nav-item">
+                                                <a href="EditarDatos.html" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-address-card"></i></div>
-                                                    <span class="grid-nav-content">Editar datos</span>
-                                                </a>
-                                                <a href="#!" class="grid-nav-item">
-                                                    <div class="grid-nav-icon"><i class="far fa-comments"></i></div>
-                                                    <span class="grid-nav-content">Mensajes</span>
+                                                    <span class="grid-nav-content">Editar Datos Personales</span>
                                                 </a>
                                                 <a href="#!" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-clone"></i></div>
@@ -412,35 +408,7 @@
                                 <span>Facturas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Productos</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fas fa-table"></i>
-                                <span>Datatable</span>
-                            </a>
-                            <ul class="sub-menu" aria-expanded="false">
-                                <li>
-                                    <a href="javascript: void(0);" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Basic</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-scrollable.html"><i class="mdi mdi-circle-outline"></i> Scrollable</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Advanced</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-adv-footer-callback.html"><i class="mdi mdi-circle-outline"></i> Footer callback</a></li>
-                                        <li><a href="datatable-adv-row-callback.html"><i class="mdi mdi-circle-outline"></i> Row callback</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Extension</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-ext-buttons.html"><i class="mdi mdi-circle-outline"></i> Buttons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Facturas</a></li>
                             </ul>
                         </li>
 
@@ -493,10 +461,6 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="pages-faqs.html"><i class="fas fa-question"></i> <span>FAQs</span></a>
-                        </li>
-
                         <!--Otras Opciones-->
                         <li class="menu-title">Otras Opciones</li>
 
@@ -504,8 +468,7 @@
                             <a href="apps-contact.html" class="">
                                 <i class="fas fa-id-badge"></i>
                                 <span>Usuario</span>
-                                <a href="form-validation.html"><i class="fa fa-check"></i> <span>Nuevo usuario</span></a>
-                                <a href="form-DatosPerfil.html"><i class="fa fa-check"></i> <span></span>Datos Perfil</a>
+                                <a href="Personal.html"><i class="fa fa-check"></i> <span>Operarios</span></a>
                             </a>
                         </li>
                     </ul>
@@ -530,6 +493,7 @@
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Otras Opciones</a></li>
                                         <li class="breadcrumb-item active">Perfil</li>
                                     </ol>
                                 </div>
@@ -573,7 +537,7 @@
                                                     <p class="text-muted mb-0">Ventas</p>
                                                 </div>
                                                 <div class="col-6">
-                                                    <h5 class="fs-15 mb-1">$1245</h5>
+                                                    <h5 class="fs-15 mb-1">₡1245</h5>
                                                     <p class="text-muted mb-0">Ganancia</p>
                                                 </div>
                                             </div>
@@ -679,7 +643,7 @@
                                                 </div>
                                                 <div class="flex-grow-1 ms-3">
                                                     <p class="text-muted fw-medium mb-2">Total de Ganancia</p>
-                                                    <h4 class="mb-0">$36,524</h4>
+                                                    <h4 class="mb-0">₡36,524</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -708,28 +672,28 @@
                                                 <td>Café Molido</td>
                                                 <td>25/04/2024</td>
                                                 <td>27/04/2024</td>
-                                                <td>$12</td>
+                                                <td>₡12000</td>
                                             </tr>
                                             <tr>
                                                 <td>02</td>
                                                 <td>Exportación de café</td>
                                                 <td>20/07/2024<</td>
                                                 <td>25/07/2024</td>
-                                                <td>$23</td>
+                                                <td>₡23000</td>
                                             </tr>
                                             <tr>
                                                 <td>03</td>
                                                 <td>Saco de Café</td>
                                                 <td>28/09/2024</td>
                                                 <td>28/09/2024</td>
-                                                <td>$36</td>
+                                                <td>₡36000</td>
                                             </tr>
                                             <tr>
                                                 <td>04</td>
                                                 <td>Exportación de café</td>
                                                 <td>20/12/2024</td>
                                                 <td>20/12/2024</td>
-                                                <td>$42</td>
+                                                <td>₡42000</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -814,7 +778,7 @@
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-warning" style="width: 20%"></div>
                         </div>
-                        <p class="text-muted mb-0 mt-1">$37,578 <span>Avg</span></p>
+                        <p class="text-muted mb-0 mt-1">₡37,578 <span>Avg</span></p>
                     </div>
                     <div class="border rounded p-2">
                         <p class="text-muted mb-2">Expectativa de ganancias</p>
@@ -822,7 +786,7 @@
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-info" style="width: 60%"></div>
                         </div>
-                        <p class="text-muted mb-0 mt-1">$23,461 <span>Avg</span></p>
+                        <p class="text-muted mb-0 mt-1">₡23,461 <span>Avg</span></p>
                     </div>
                 </div>
 

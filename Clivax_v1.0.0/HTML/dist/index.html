@@ -11,7 +11,7 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/AltosAbejonal.jpeg">
 
-    
+
     <!-- dark layout js -->
     <script src="assets/js/pages/layout.js"></script>
 
@@ -219,7 +219,7 @@
                                                 </span>
                                             </div>
                                             <div class="flex-1">
-                                                <h6 class="mb-1">Orden Enviada</h6>
+                                                <h6 class="mb-1">Pedido Enviado</h6>
                                                 <div class="fs-12 text-muted">
                                                     <p class="mb-0"><i class="mdi mdi-clock-outline"></i> Hace una hora</p>
                                                 </div>
@@ -396,6 +396,20 @@
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="GestionProductos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Productos</a></li>
                                 <li><a href="Stock.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Stock</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!--Cotizaciones-->
+                        <li class="menu-title">Cotizaciones y Ventas</li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fa fa-window-restore"></i>
+                                <span>Cotización</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="Cotizaciones.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Productos</a></li>
+                                <li><a href="form-DatosCliente.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Stock</a></li>
 
                             </ul>
                         </li>
@@ -1177,24 +1191,30 @@
                                             <div class="row">
                                                 <div class="col-4">
                                                     <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-primary font-size-10 me-1"></i> Producta A</p>
+                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-primary font-size-10 me-1"></i> Producto A</p>
                                                         <h5>42 %</h5>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
                                                     <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-success font-size-10 me-1"></i> Producta B</p>
+                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-success font-size-10 me-1"></i> Producto B</p>
                                                         <h5>26 %</h5>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
                                                     <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-warning font-size-10 me-1"></i> Producta C</p>
+                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-warning font-size-10 me-1"></i> Producto C</p>
                                                         <h5>42 %</h5>
                                                     </div>
+
+                                                    <div class="text-center mt-4">
+                                                        <button class="btn btn-primary" onclick="generarReporte()">Generar Reporte</button>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="col-xxl-12 order-4 order-xxl-2">
@@ -1366,13 +1386,14 @@
                                             <div class="card-icon">
                                                 <i class="fas fa-calendar-alt fs-14 text-muted"></i>
                                             </div>
-                                            <h4 class="card-title mb-0">Ventas Mensuales</h4>
+                                            <h4 class="card-title mb-0">Ventas Por Periodo</h4>
                                         </div>
                                         <div class="card-body">
                                             <div id="monthly_states" data-colors='["--bs-success", "--bs-danger", "--bs-warning"]' class="apex-charts" dir="ltr"></div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
