@@ -4,12 +4,18 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Nuevo Usuario |Altos Del Abejonal </title>
+    <title>GestionProductos | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/AltosAbejonal.jpeg">
+
+    <!-- DataTables -->
+    <link href="assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Responsive datatable examples -->
+    <link href="assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />
 
 
     <!-- dark layout js -->
@@ -334,9 +340,13 @@
                                     <div class="card-body p-0">
                                         <div class="grid-nav grid-nav-flush grid-nav-action grid-nav-no-rounded">
                                             <div class="grid-nav-row">
-                                                <a href="EditarDatos.html" class="grid-nav-item">
+                                                <a href="form-DatosPerfil.html" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-address-card"></i></div>
-                                                    <span class="grid-nav-content">Editar Datos Personales</span>
+                                                    <span class="grid-nav-content">Editar datos</span>
+                                                </a>
+                                                <a href="#!" class="grid-nav-item">
+                                                    <div class="grid-nav-icon"><i class="far fa-comments"></i></div>
+                                                    <span class="grid-nav-content">Mensajes</span>
                                                 </a>
                                                 <a href="#!" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-clone"></i></div>
@@ -399,6 +409,7 @@
 
                             </ul>
                         </li>
+
                         <!--Cotizaciones-->
                         <li class="menu-title">Cotizaciones y Ventas</li>
                         <li>
@@ -408,7 +419,7 @@
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="Cotizaciones.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Creación de cotización</a></li>
-                                <li><a href="form-DatosCliente.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
+                                <li><a href="form-NuevoCliente.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
 
                             </ul>
                         </li>
@@ -421,7 +432,52 @@
                                 <span>Facturas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Facturas</a></li>
+                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Productos</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-table"></i>
+                                <span>Datatable</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Basic</a>
+                                    <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="datatable-base.html"><i class="mdi mdi-circle-outline"></i> Base</a></li>
+                                        <li><a href="datatable-footer.html"><i class="mdi mdi-circle-outline"></i> Footer</a></li>
+                                        <li><a href="datatable-scrollable.html"><i class="mdi mdi-circle-outline"></i> Scrollable</a></li>
+                                        <li><a href="datatable-pagination.html"><i class="mdi mdi-circle-outline"></i> Pagination</a></li>
+                                        <li><a href="datatable-page-length.html"><i class="mdi mdi-circle-outline"></i> Length menu</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Advanced</a>
+                                    <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="datatable-adv-col-render.html"><i class="mdi mdi-circle-outline"></i> Column rendering</a></li>
+                                        <li><a href="datatable-adv-col-visibility.html"><i class="mdi mdi-circle-outline"></i> Column visibility</a></li>
+                                        <li><a href="datatable-adv-footer-callback.html"><i class="mdi mdi-circle-outline"></i> Footer callback</a></li>
+                                        <li><a href="datatable-adv-multi-control.html"><i class="mdi mdi-circle-outline"></i> Multiple controls</a></li>
+                                        <li><a href="datatable-adv-row-callback.html"><i class="mdi mdi-circle-outline"></i> Row callback</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Extension</a>
+                                    <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="datatable-ext-autofill.html"><i class="mdi mdi-circle-outline"></i> Auto fill</a></li>
+                                        <li><a href="datatable-ext-buttons.html"><i class="mdi mdi-circle-outline"></i> Buttons</a></li>
+                                        <li><a href="datatable-ext-col-reorder.html"><i class="mdi mdi-circle-outline"></i> Column reorder</a></li>
+                                        <li><a href="datatable-ext-fixed-header.html"><i class="mdi mdi-circle-outline"></i> Fixed header</a></li>
+                                        <li><a href="datatable-ext-fixed-column.html"><i class="mdi mdi-circle-outline"></i> Fixed column</a></li>
+                                        <li><a href="datatable-ext-keytable.html"><i class="mdi mdi-circle-outline"></i> Key table</a></li>
+                                        <li><a href="datatable-ext-row-group.html"><i class="mdi mdi-circle-outline"></i> Row group</a></li>
+                                        <li><a href="datatable-ext-row-reorder.html"><i class="mdi mdi-circle-outline"></i> Row reorder</a></li>
+                                        <li><a href="datatable-ext-scrollable.html"><i class="mdi mdi-circle-outline"></i> Scrollable</a></li>
+                                        <li><a href="datatable-ext-searchpanes.html"><i class="mdi mdi-circle-outline"></i> Search panes</a></li>
+                                        <li><a href="datatable-ext-select.html"><i class="mdi mdi-circle-outline"></i> Select</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
 
@@ -432,9 +488,17 @@
                         <li>
                             <a href="#!" class="has-arrow"><i class="fa fa-fill-drip"></i> <span>Advanced</span></a>
                             <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="form-autosize.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Autosize</a></li>
+                                <li><a href="form-bs-maxlength.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Bootstrap maxlength</a></li>
+                                <li><a href="form-clipboard.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Clipboard</a></li>
                                 <li><a href="form-datepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Date picker</a></li>
                                 <li><a href="form-datetimepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Date time picker</a></li>
                                 <li><a href="form-rangepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Range picker</a></li>
+                                <li><a href="form-inputmask.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Input mask</a></li>
+                                <li><a href="form-select2.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Select2</a></li>
+                                <li><a href="form-rangeslider.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Slider</a></li>
+                                <li><a href="form-touchspin.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Touchspin</a></li>
+                                <li><a href="form-typeahead.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Typeahead</a></li>
                             </ul>
                         </li>
 
@@ -449,29 +513,46 @@
 
                         <li><a href="form-input-group.html"><i class="fa fa-th-list"></i> <span>Group</span></a></li>
                         <li><a href="form-layout.html"><i class="fa fa-ruler-combined"></i> <span>Layout</span></a></li>
+                        <li><a href="form-validation.html"><i class="fa fa-check"></i> <span>Validation</span></a></li>
 
-                        <li class="menu-title">Páginas</li>
+                        <li class="menu-title">Pages</li>
 
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
                                 <i class="fa fa-unlock-alt"></i>
-                                <span>Autenticación</span>
+                                <span>Authentication</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="auth-login.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Iniciar Sesión</a></li>
-                                <li><a href="auth-register.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Registrarse</a></li>
+                                <li><a href="auth-login.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Login</a></li>
+                                <li><a href="auth-register.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Register</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
                                 <i class="fa fa-unlink"></i>
-                                <span>Errores</span>
+                                <span>Error</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="pages-404.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Error 404</a></li>
                                 <li><a href="pages-500.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Error 500</a></li>
                             </ul>
+                        </li>
+
+                        <li>
+                            <a href="pages-starter.html"><i class="fas fa-pager"></i> <span>Starter Page</span></a>
+                        </li>
+
+                        <li>
+                            <a href="pages-pricing.html"><i class="fas fa-dollar-sign"></i> <span>Pricing</span></a>
+                        </li>
+
+                        <li>
+                            <a href="pages-faqs.html"><i class="fas fa-question"></i> <span>FAQs</span></a>
+                        </li>
+
+                        <li>
+                            <a href="pages-comingsoon.html"><i class="fas fa-tape"></i> <span>Coming Soon</span></a>
                         </li>
 
                         <!--Otras Opciones-->
@@ -481,7 +562,8 @@
                             <a href="apps-contact.html" class="">
                                 <i class="fas fa-id-badge"></i>
                                 <span>Usuario</span>
-                                <a href="Personal.html"><i class="fa fa-check"></i> <span>Operarios</span></a>
+                                <a href="form-validation.html"><i class="fa fa-check"></i> <span>Nuevo usuario</span></a>
+                                <a href="form-DatosPerfil.html"><i class="fa fa-check"></i> <span></span>Datos Perfil</a>
                             </a>
                         </li>
                     </ul>
@@ -502,12 +584,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Nuevo Usuario</h4>
+                                <h4 class="mb-sm-0">Cotizaciones</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Operarios</a></li>
-                                        <li class="breadcrumb-item active">Ingresar Nuevo Usuario</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Cotizaciones y ventas</a></li>
+                                        <li class="breadcrumb-item active">Creación de cotización</li>
                                     </ol>
                                 </div>
 
@@ -517,88 +599,351 @@
                     <!-- end page title -->
 
                     <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Selección de Productos</h4>
+                                </div>
+                                <div class="card-body">
+                                    <table id="datatable" class="table table-hover table-bordered table-striped dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Tipo de Grano</th>
+                                                <th>Tipo de Presentación</th>
+                                                <th>Stock</th>
+                                                <th>Categoria</th>
+                                                <th>Precio</th>
+                                                <th>Acción</th>
+                                                <th>Seleccionar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Café Volcán Azul</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>25</td>
+                                                <td>Especialidad</td>
+                                                <td>₡7,500</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="7500">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Café Britt Clásico</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>40</td>
+                                                <td>Gourmet</td>
+                                                <td>₡5,200</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="5200">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café 1820 Tradicional</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>100</td>
+                                                <td>Común</td>
+                                                <td>₡3,800</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="3800">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Naranjo Reserva</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>30</td>
+                                                <td>Especialidad</td>
+                                                <td>₡6,300</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="6300">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Rey Superior</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>50</td>
+                                                <td>Común</td>
+                                                <td>₡4,500</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="4500">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Monteverde</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>35</td>
+                                                <td>Gourmet</td>
+                                                <td>₡6,800</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="6800">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Dota Selecto</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>45</td>
+                                                <td>Especialidad</td>
+                                                <td>₡7,200</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="7200">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Buen Día</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>75</td>
+                                                <td>Común</td>
+                                                <td>₡3,500</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="3500">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Tres Generaciones</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>20</td>
+                                                <td>Gourmet</td>
+                                                <td>₡8,500</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="8500">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café La Pastora</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>60</td>
+                                                <td>Especialidad</td>
+                                                <td>₡6,000</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="6000">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café El Roble</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>28</td>
+                                                <td>Gourmet</td>
+                                                <td>₡7,800</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="7800">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Oro</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>55</td>
+                                                <td>Común</td>
+                                                <td>₡4,200</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="4200">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Tarrazú Premium</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>32</td>
+                                                <td>Especialidad</td>
+                                                <td>₡7,300</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="7300">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Libertad</td>
+                                                <td>Arábica</td>
+                                                <td>Molido</td>
+                                                <td>80</td>
+                                                <td>Común</td>
+                                                <td>₡3,900</td>
+                                                <td>
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="3900">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café Cerro Bueno</td>
+                                                <td>Arábica</td>
+                                                <td>Grano entero</td>
+                                                <td>22</td>
+                                                <td>Gourmet</td>
+                                                <td>₡7,600</td>
+                                                <td>
+
+                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
+                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="selectProduct" value="7600">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- container-fluid -->
+                <!-- Cotización Section -->
+                <div class="row">
+                    <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Datos del usuario</h3>
+                                <h4 class="card-title">Generar Cotización</h4>
                             </div>
                             <div class="card-body">
-                                <form class="custom-validation" action="#">
-                                    <div class="mb-3">
-                                        <div class="form-floating">
-                                            <input type="text" id="first-name" class="form-control" name="firstName" placeholder="Ingrese el nombre" required />
-                                            <label for="first-name" class="fw-normal">Nombre</label>
+                                <form id="quotationForm">
+                                    <div class="form-group row">
+                                        <label for="subtotal" class="col-sm-2 col-form-label">Subtotal</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="subtotal" readonly>
                                         </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <div class="form-floating">
-                                            <input type="text" id="last-name" class="form-control" name="lastName" placeholder="Ingrese el primer apellido" required />
-                                            <label for="last-name" class="fw-normal">Primer Apellido</label>
+                                    <br />
+                                    <div class="form-group row">
+                                        <label for="discount" class="col-sm-2 col-form-label">Descuento (%)</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="discount" value="0">
+                                        </div>
+                                    <br />
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="iva" class="col-sm-2 col-form-label">IVA (%)</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="iva" value="13">
                                         </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <input type="number" class="form-control" name="age" placeholder="Edad" required />
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="tel" class="form-control" name="phone" placeholder="Teléfono" required />
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" name="address" placeholder="Dirección" required />
-                                    </div>
-                                    <div class="mb-3">
-                                        <select class="form-select" name="Rol" required>
-                                            <option value="default">Seleccione el rol</option>
-                                            <option value="male">Gerente de Inventario</option>
-                                            <option value="female">Gerente de Ventas</option>
-                                            <option value="female">Contador</option>
-                                            <option value="female">Encargado de los pedidos</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <div class="input-group">
-                                            <div class="input-group-text">
-                                                <i class="fa fa-envelope"></i>
-                                            </div>
-                                            <input type="email" class="form-control" name="email" placeholder="Ingrese el correo electrónico" required />
+                                    <br />
+                                    <div class="form-group row">
+                                        <label for="total" class="col-sm-2 col-form-label">Total</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="total" readonly>
                                         </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="agreement" name="agreement" required />
-                                            <label class="form-check-label fw-medium" for="agreement">Acceptar los términos</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary" type="submit">Agregar</button>
-                                        <button class="btn btn-primary" onclick="location.href='Personal.html'">Regresar</button>
+                                    <br />
+                                    <div style="text-align: center;">
+                                        <button type="button" class="btn btn-primary" onclick="generateQuotation()">Generar Cotización</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <!-- end card -->
                     </div> <!-- end col -->
                 </div>
                 <!-- end row -->
-            </div> <!-- container-fluid -->
-        </div>
-        <!-- End Page-content -->
 
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-6">
-                        <script>document.write(new Date().getFullYear())</script> © Clivax.
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="text-sm-end d-none d-sm-block">
-                            Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/" target="_blank" class="text-muted">Codebucks</a>
+                <script>function generateQuotation() {
+        let selectedProducts = document.querySelectorAll('input[name="selectProduct"]:checked');
+        let subtotal = 0;
+
+        selectedProducts.forEach(product => {
+            subtotal += parseFloat(product.value);
+        });
+
+        let discount = parseFloat(document.getElementById('discount').value);
+        let iva = parseFloat(document.getElementById('iva').value);
+
+        let discountAmount = (subtotal * discount) / 100;
+        let subtotalAfterDiscount = subtotal - discountAmount;
+        let ivaAmount = (subtotalAfterDiscount * iva) / 100;
+        let total = subtotalAfterDiscount + ivaAmount;
+
+        document.getElementById('subtotal').value = `₡${subtotal.toFixed(2)}`;
+        document.getElementById('total').value = `₡${total.toFixed(2)}`;}</script>
+                
+            <!-- End Page-content -->
+
+
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © Clivax.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/" target="_blank" class="text-muted">Codebucks</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
 
-    </div>
-    <!-- end main content-->
+        </div>
+        <!-- end main content-->
+
     </div>
     <!-- END layout-wrapper -->
 
@@ -621,7 +966,7 @@
     <div class="offcanvas offcanvas-end" id="offcanvas-rightsidabar">
         <div class="card h-100 rounded-0" data-simplebar="init">
             <div class="card-header bg-light">
-                <h6 class="card-title text-uppercase">Activities</h6>
+                <h6 class="card-title text-uppercase">Actividades</h6>
                 <div class="card-addon">
                     <button class="btn btn-label-danger" data-bs-dismiss="offcanvas">
                         <i class="fa fa-times"></i>
@@ -630,9 +975,9 @@
             </div>
             <div class="card-body">
                 <div class="">
-                    <h3 class="card-title">Company summary</h3>
+                    <h3 class="card-title">Resumen de la empresa</h3>
                     <div class="border rounded p-2">
-                        <p class="text-muted mb-2">Server Load</p>
+                        <p class="text-muted mb-2">Cambios en Reportes</p>
                         <h4 class="fs-16 mb-2">489</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-success" style="width: 49.4%"></div>
@@ -640,7 +985,7 @@
                         <p class="text-muted mb-0 mt-1">49.4% <span>Avg</span></p>
                     </div>
                     <div class="border rounded p-2">
-                        <p class="text-muted mb-2">Members online</p>
+                        <p class="text-muted mb-2">Ventas</p>
                         <h4 class="fs-16 mb-2">3,450</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-danger" style="width: 34.6%"></div>
@@ -648,7 +993,7 @@
                         <p class="text-muted mb-0 mt-1">34.6% <span>Avg</span></p>
                     </div>
                     <div class="border rounded p-2">
-                        <p class="text-muted mb-2">Today's revenue</p>
+                        <p class="text-muted mb-2">Ganancia del día</p>
                         <h4 class="fs-16 mb-2">$18,390</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-warning" style="width: 20%"></div>
@@ -656,7 +1001,7 @@
                         <p class="text-muted mb-0 mt-1">$37,578 <span>Avg</span></p>
                     </div>
                     <div class="border rounded p-2">
-                        <p class="text-muted mb-2">Expected profit</p>
+                        <p class="text-muted mb-2">Expectativa de ganancias</p>
                         <h4 class="fs-16 mb-2">$23,461</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-info" style="width: 60%"></div>
@@ -666,14 +1011,14 @@
                 </div>
 
                 <div class="mt-4">
-                    <h3 class="card-title">Latest log</h3>
+                    <h3 class="card-title">Último Registro</h3>
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-pin"><i class="marker marker-dot text-primary"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">12 new users registered</p>
-                                    <span class="text-muted">Just now</span>
+                                    <p class="mb-0">Ingresos en el inventario</p>
+                                    <span class="text-muted">1 mins</span>
                                 </div>
                             </div>
                         </div>
@@ -681,7 +1026,7 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-success"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">System shutdown <span class="badge badge-label-success">pending</span></p>
+                                    <p class="mb-0">Revisar Inventario <span class="badge badge-label-success">pendiente</span></p>
                                     <span class="text-muted">2 mins</span>
                                 </div>
                             </div>
@@ -690,7 +1035,7 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-primary"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">New invoice received</p>
+                                    <p class="mb-0">Cambio en el reporte ID:#</p>
                                     <span class="text-muted">3 mins</span>
                                 </div>
                             </div>
@@ -699,7 +1044,7 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-danger"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">New order received <span class="badge badge-label-danger">urgent</span></p>
+                                    <p class="mb-0">Actualización del sistema<span class="badge badge-label-danger">urgente</span></p>
                                     <span class="text-muted">10 mins</span>
                                 </div>
                             </div>
@@ -708,7 +1053,7 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-warning"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">Production server down</p>
+                                    <p class="mb-0">Nuevo Reporte Financiero</p>
                                     <span class="text-muted">1 hrs</span>
                                 </div>
                             </div>
@@ -717,101 +1062,81 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-info"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">System error <a href="#">check</a></p>
+                                    <p class="mb-0">Error en el sistema <a href="#">check</a></p>
                                     <span class="text-muted">2 hrs</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-pin"><i class="marker marker-dot text-secondary"></i></div>
-                            <div class="timeline-content">
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0">DB overloaded 80%</p>
-                                    <span class="text-muted">5 hrs</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-pin"><i class="marker marker-dot text-success"></i></div>
-                            <div class="timeline-content">
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0">Production server up</p>
-                                    <span class="text-muted">6 hrs</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="mt-4">
-                    <h3 class="card-title">Upcoming activities</h3>
-                    <div class="timeline timeline-timed">
-                        <div class="timeline-item">
-                            <span class="timeline-time">10:00</span>
-                            <div class="timeline-pin"><i class="marker marker-circle text-primary"></i></div>
-                            <div class="timeline-content">
-                                <div>
-                                    <span>Meeting with</span>
-                                    <div class="avatar-group ms-2">
-                                        <div class="avatar avatar-circle">
-                                            <img src="assets/images/users/avatar-1.png" alt="Avatar image" class="avatar-2xs" />
+                        <div class="mt-4">
+                            <h3 class="card-title">Próximas Actividades</h3>
+                            <div class="timeline timeline-timed">
+                                <div class="timeline-item">
+                                    <span class="timeline-time">10:00</span>
+                                    <div class="timeline-pin"><i class="marker marker-circle text-primary"></i></div>
+                                    <div class="timeline-content">
+                                        <div>
+                                            <span>Reunión de Equipo</span>
+                                            <div class="avatar-group ms-2">
+                                                <div class="avatar avatar-circle">
+                                                    <img src="assets/images/users/avatar-1.png" alt="Avatar image" class="avatar-2xs" />
+                                                </div>
+                                                <div class="avatar avatar-circle">
+                                                    <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs" />
+                                                </div>
+                                                <div class="avatar avatar-circle">
+                                                    <img src="assets/images/users/avatar-3.png" alt="Avatar image" class="avatar-2xs" />
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="avatar avatar-circle">
-                                            <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs" />
-                                        </div>
-                                        <div class="avatar avatar-circle">
-                                            <img src="assets/images/users/avatar-3.png" alt="Avatar image" class="avatar-2xs" />
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-time">12:45</span>
+                                    <div class="timeline-pin"><i class="marker marker-circle text-warning"></i></div>
+                                    <div class="timeline-content">
+                                        <p class="mb-0">Exportación de Productos</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-time">14:00</span>
+                                    <div class="timeline-pin"><i class="marker marker-circle text-danger"></i></div>
+                                    <div class="timeline-content">
+                                        <p class="mb-0">Actualizar Inventario <a href="GestionProductos.html">Inventario</a></p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-time">15:20</span>
+                                    <div class="timeline-pin"><i class="marker marker-circle text-success"></i></div>
+                                    <div class="timeline-content">
+                                        <p class="mb-0">Pago de Salarios</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="timeline-item">
-                            <span class="timeline-time">12:45</span>
-                            <div class="timeline-pin"><i class="marker marker-circle text-warning"></i></div>
-                            <div class="timeline-content">
-                                <p class="mb-0">Lorem ipsum dolor sit amit,consectetur eiusmdd tempor incididunt ut labore et dolore magna elit enim at minim veniam quis nostrud</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <span class="timeline-time">14:00</span>
-                            <div class="timeline-pin"><i class="marker marker-circle text-danger"></i></div>
-                            <div class="timeline-content">
-                                <p class="mb-0">Received a new feedback on <a href="#">GoFinance</a> App product.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <span class="timeline-time">15:20</span>
-                            <div class="timeline-pin"><i class="marker marker-circle text-success"></i></div>
-                            <div class="timeline-content">
-                                <p class="mb-0">Lorem ipsum dolor sit amit,consectetur eiusmdd tempor incididunt ut labore et dolore magna.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <span class="timeline-time">17:00</span>
-                            <div class="timeline-pin"><i class="marker marker-circle text-info"></i></div>
-                            <div class="timeline-content">
-                                <p class="mb-0">Make Deposit <a href="#">USD 700</a> o ESL.</p>
-                            </div>
-                        </div>
                     </div>
-                </div>
+                </div> <!-- end card-->
             </div>
-        </div> <!-- end card-->
-    </div>
 
-    <!-- JAVASCRIPT -->
-    <script src="assets/libs/jquery/jquery.min.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/libs/node-waves/waves.min.js"></script>
+            <!-- JAVASCRIPT -->
+            <script src="assets/libs/jquery/jquery.min.js"></script>
+            <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+            <script src="assets/libs/simplebar/simplebar.min.js"></script>
+            <script src="assets/libs/node-waves/waves.min.js"></script>
 
-    <script src="assets/libs/parsleyjs/parsley.min.js"></script>
+            <!-- Required datatable js -->
+            <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+            <script src="assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
 
-    <script src="assets/js/pages/form-validation.init.js"></script>
+            <!-- Responsive examples -->
+            <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+            <script src="assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
 
-    <script src="assets/js/app.js"></script>
+            <!-- Datatable init js -->
+            <script src="assets/js/pages/datatables-base.init.js"></script>
+
+            <script src="assets/js/app.js"></script>
 
 </body>
 

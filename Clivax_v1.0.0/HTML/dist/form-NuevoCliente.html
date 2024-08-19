@@ -502,12 +502,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Nuevo Usuario</h4>
+                                <h4 class="mb-sm-0">Nuevo Cliente</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Operarios</a></li>
-                                        <li class="breadcrumb-item active">Ingresar Nuevo Usuario</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Clientes</a></li>
+                                        <li class="breadcrumb-item active">Registrar nuevo cliente</li>
                                     </ol>
                                 </div>
 
@@ -519,40 +519,30 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Datos del usuario</h3>
+                                <h3 class="card-title">Datos del cliente</h3>
                             </div>
                             <div class="card-body">
                                 <form class="custom-validation" action="#">
                                     <div class="mb-3">
                                         <div class="form-floating">
-                                            <input type="text" id="first-name" class="form-control" name="firstName" placeholder="Ingrese el nombre" required />
-                                            <label for="first-name" class="fw-normal">Nombre</label>
+                                            <input type="text" id="razonsocial" class="form-control" name="razonsocial" placeholder="Ingrese su nombre o razón social" required />
+                                            <label for="razonsocial" class="fw-normal">Nombre o razón social</label>
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <div class="form-floating">
-                                            <input type="text" id="last-name" class="form-control" name="lastName" placeholder="Ingrese el primer apellido" required />
-                                            <label for="last-name" class="fw-normal">Primer Apellido</label>
+                                            <input type="text" id="cedula" class="form-control" name="cedula" placeholder="Ingrese el primer apellido" required />
+                                            <label for="cedula" class="fw-normal">Ingrese su cedula juridica o personal</label>
                                         </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <input type="number" class="form-control" name="age" placeholder="Edad" required />
-                                    </div>
+                                    
                                     <div class="mb-3">
                                         <input type="tel" class="form-control" name="phone" placeholder="Teléfono" required />
                                     </div>
                                     <div class="mb-3">
                                         <input type="text" class="form-control" name="address" placeholder="Dirección" required />
                                     </div>
-                                    <div class="mb-3">
-                                        <select class="form-select" name="Rol" required>
-                                            <option value="default">Seleccione el rol</option>
-                                            <option value="male">Gerente de Inventario</option>
-                                            <option value="female">Gerente de Ventas</option>
-                                            <option value="female">Contador</option>
-                                            <option value="female">Encargado de los pedidos</option>
-                                        </select>
-                                    </div>
+                                    
                                     <div class="mb-3">
                                         <div class="input-group">
                                             <div class="input-group-text">
@@ -564,12 +554,12 @@
                                     <div class="mb-3">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="agreement" name="agreement" required />
-                                            <label class="form-check-label fw-medium" for="agreement">Acceptar los términos</label>
+                                            <label class="form-check-label fw-medium" for="agreement">Acceptar los términos y condiciones</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <button class="btn btn-primary" type="submit">Agregar</button>
-                                        <button class="btn btn-primary" onclick="location.href='Personal.html'">Regresar</button>
+                                        <button class="btn btn-primary" onclick="location.href='index.html'">Regresar</button>
                                     </div>
                                 </form>
                             </div>
