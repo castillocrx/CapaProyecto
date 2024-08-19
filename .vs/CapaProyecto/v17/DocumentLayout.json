@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 53,
+          "SelectedChildIndex": 56,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
@@ -27,6 +27,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -226,19 +234,40 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "ViewState": "AgIAALABAAAAAAAAAAAAAM0BAABDAAAAAAAAAA==",
+              "Title": "ui-AdministrarUsuarios.html",
+              "DocumentMoniker": "C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html",
+              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html",
+              "ToolTip": "C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html",
+              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-AdministrarUsuarios.html",
+              "ViewState": "AQIAAC0CAAAAAAAAAAAAAEACAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-18T03:14:45.575Z",
+              "WhenOpened": "2024-08-19T04:07:41.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
+              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\index.html",
+              "ToolTip": "C:\\Users\\Alienware\\OneDrive\\Documentos\\Fidelitas\\Clonaciones\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
+              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\index.html",
+              "ViewState": "AQIAALkBAAAAAAAAAAAAANcBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-19T03:38:04.604Z",
               "EditorCaption": ""
             }
           ]
