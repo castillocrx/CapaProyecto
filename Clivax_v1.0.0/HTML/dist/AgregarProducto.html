@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Agregar Producto | Altos Del Abejonal - Admin & Dashboard Template</title>
+    <title>Agregar Producto | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
@@ -334,13 +334,9 @@
                                     <div class="card-body p-0">
                                         <div class="grid-nav grid-nav-flush grid-nav-action grid-nav-no-rounded">
                                             <div class="grid-nav-row">
-                                                <a href="apps-contact.html" class="grid-nav-item">
+                                                <a href="EditarDatos.html" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-address-card"></i></div>
-                                                    <span class="grid-nav-content">Perfil</span>
-                                                </a>
-                                                <a href="#!" class="grid-nav-item">
-                                                    <div class="grid-nav-icon"><i class="far fa-comments"></i></div>
-                                                    <span class="grid-nav-content">Mensajes</span>
+                                                    <span class="grid-nav-content">Editar Datos Personales</span>
                                                 </a>
                                                 <a href="#!" class="grid-nav-item">
                                                     <div class="grid-nav-icon"><i class="far fa-clone"></i></div>
@@ -381,7 +377,6 @@
 
                 <!--- Sidebar-menu -->
                 <div id="sidebar-menu">
-
                     <!-- Left Menu Start -->
                     <ul class="left-menu list-unstyled" id="side-menu">
                         <li>
@@ -391,9 +386,8 @@
                             </a>
                         </li>
 
-                        <li class="menu-title">Principal</li>
-
                         <!--Inventario-->
+                        <li class="menu-title">Gestión Inventario</li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
                                 <i class="fa fa-window-restore"></i>
@@ -406,95 +400,78 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-shapes"></i>
-                                <span>Widget</span>
-                            </a>
-                            <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="widget-general.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> General</a></li>
-                                <li><a href="widget-chart.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Chart</a></li>
-                            </ul>
-                        </li>
-
+                        <!--Informes Financieros-->
                         <li class="menu-title">Informes Financieros</li>
-
                         <li>
-                            <a href="javascript: void(0);" class="has-arrow "><i class="fa fa-chart-pie align-middle"></i> Apexcharts</a>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fa fa-window-restore"></i>
+                                <span>Facturas</span>
+                            </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="charts-apex-line.html"><i class="mdi mdi-checkbox-blank-circle"></i> Line</a></li>
-                                <li><a href="charts-apex-area.html"><i class="mdi mdi-checkbox-blank-circle"></i> Area</a></li>
-                                <li><a href="charts-apex-column.html"><i class="mdi mdi-checkbox-blank-circle"></i> Column</a></li>
-                                <li><a href="charts-apex-bar.html"><i class="mdi mdi-checkbox-blank-circle"></i> Bar</a></li>
-                                <li><a href="charts-apex-mixed.html"><i class="mdi mdi-checkbox-blank-circle"></i> Mixed/Combo</a></li>
-                                <li><a href="charts-apex-range.html"><i class="mdi mdi-checkbox-blank-circle"></i> Range Area</a></li>
-                                <li><a href="charts-apex-timeline.html"><i class="mdi mdi-checkbox-blank-circle"></i> Timeline</a></li>
-                                <li><a href="charts-apex-candle.html"><i class="mdi mdi-checkbox-blank-circle"></i> Candlestick</a></li>
-                                <li><a href="charts-apex-box&whisker.html"><i class="mdi mdi-checkbox-blank-circle"></i> Box & Whisker</a></li>
-                                <li><a href="charts-apex-pie.html"><i class="mdi mdi-checkbox-blank-circle"></i> Pie/Donut</a></li>
-                                <li><a href="charts-apex-radar.html"><i class="mdi mdi-checkbox-blank-circle"></i> Radar</a></li>
-                                <li><a href="charts-apex-polar.html"><i class="mdi mdi-checkbox-blank-circle"></i> Polar Area</a></li>
-                                <li><a href="charts-apex-radial.html"><i class="mdi mdi-checkbox-blank-circle"></i> Radial/Circle</a></li>
-                                <li><a href="charts-apex-bubble.html"><i class="mdi mdi-checkbox-blank-circle"></i> Bubble</a></li>
-                                <li><a href="charts-apex-scatter.html"><i class="mdi mdi-checkbox-blank-circle"></i> Scatter</a></li>
-                                <li><a href="charts-apex-heatmap.html"><i class="mdi mdi-checkbox-blank-circle"></i> Heatmap</a></li>
-                                <li><a href="charts-apex-treemap.html"><i class="mdi mdi-checkbox-blank-circle"></i> Treemap</a></li>
+                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Facturas</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fas fa-table"></i>
-                                <span>Datatable</span>
+                                <i class="fa fa-window-restore"></i>
+                                <span>Resumen Financiero</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li>
-                                    <a href="javascript: void(0);" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Basic</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-scrollable.html"><i class="mdi mdi-circle-outline"></i> Scrollable</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Advanced</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-adv-footer-callback.html"><i class="mdi mdi-circle-outline"></i> Footer callback</a></li>
-                                        <li><a href="datatable-adv-row-callback.html"><i class="mdi mdi-circle-outline"></i> Row callback</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#!" class="has-arrow "><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Extension</a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="datatable-ext-buttons.html"><i class="mdi mdi-circle-outline"></i> Buttons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="ResumenFinanciero.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>ResumenFinanciero</a></li>
                             </ul>
                         </li>
 
-                        <li class="menu-title">Form</li>
+                        <!--Cotizaciones-->
 
-                        <li><a href="form-base.html"><i class="fa fa-dice"></i> <span>Base</span></a></li>
+                        <li class="menu-title">Cotizaciones y Ventas</li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fa fa-window-restore"></i>
+                                <span>Clientes</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="form-DatosCliente.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
+                            </ul>
+                        </li>
+
+                        <!--Compras-->
+
+                        <li class="menu-title">Compras</li>
 
                         <li>
-                            <a href="#!" class="has-arrow"><i class="fa fa-fill-drip"></i> <span>Advanced</span></a>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Pedidos</span>
+                            </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="form-datepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Date picker</a></li>
-                                <li><a href="form-datetimepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Date time picker</a></li>
-                                <li><a href="form-rangepicker.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Range picker</a></li>
+                                <li><a href="ui-EstadoPedidos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Estado de Pedidos</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#!" class="has-arrow"><i class="fa fa-pencil-ruler"></i> <span>Editors</span></a>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>Compras</span>
+                            </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="form-basic-editors.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Basic</a></li>
-                                <li><a href="form-bubble-editors.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Bubble</a></li>
-                                <li><a href="form-complex-editors.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Complex</a></li>
+                                <li><a href="ui-ComprasRealizadas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Compras Realizadas</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="form-input-group.html"><i class="fa fa-th-list"></i> <span>Group</span></a></li>
-                        <li><a href="form-layout.html"><i class="fa fa-ruler-combined"></i> <span>Layout</span></a></li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-folder-open"></i>
+                                <span>Reportes</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="ui-ReporteCompras.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes Empresa</a></li>
+                                <li><a href="ui-ReporteComprasMensual.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes Proveedores</a></li>
+                            </ul>
+                        </li>
 
+
+                        <!--Otras Páginas-->
                         <li class="menu-title">Páginas</li>
 
                         <li>
@@ -519,18 +496,14 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="pages-faqs.html"><i class="fas fa-question"></i> <span>FAQs</span></a>
-                        </li>
-
+                        <!--Otras Opciones-->
                         <li class="menu-title">Otras Opciones</li>
 
                         <li>
                             <a href="apps-contact.html" class="">
                                 <i class="fas fa-id-badge"></i>
                                 <span>Usuario</span>
-                                <a href="form-validation.html"><i class="fa fa-check"></i> <span>Nuevo usuario</span></a>
-                                <a href="form-DatosPerfil.html"><i class="fa fa-check"></i> <span></span>Datos Perfil</a>
+                                <a href="Personal.html"><i class="fa fa-check"></i> <span>Operarios</span></a>
                             </a>
                         </li>
                     </ul>
@@ -685,19 +658,19 @@
                     </div>
                     <div class="border rounded p-2">
                         <p class="text-muted mb-2">Ganancia del día</p>
-                        <h4 class="fs-16 mb-2">$18,390</h4>
+                        <h4 class="fs-16 mb-2">₡18,390</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-warning" style="width: 20%"></div>
                         </div>
-                        <p class="text-muted mb-0 mt-1">$37,578 <span>Avg</span></p>
+                        <p class="text-muted mb-0 mt-1">₡37,578 <span>Avg</span></p>
                     </div>
                     <div class="border rounded p-2">
                         <p class="text-muted mb-2">Expectativa de ganancias</p>
-                        <h4 class="fs-16 mb-2">$23,461</h4>
+                        <h4 class="fs-16 mb-2">₡23,461</h4>
                         <div class="progress progress-sm" style="height:4px;">
                             <div class="progress-bar bg-info" style="width: 60%"></div>
                         </div>
-                        <p class="text-muted mb-0 mt-1">$23,461 <span>Avg</span></p>
+                        <p class="text-muted mb-0 mt-1">₡23,461 <span>Avg</span></p>
                     </div>
                 </div>
 
