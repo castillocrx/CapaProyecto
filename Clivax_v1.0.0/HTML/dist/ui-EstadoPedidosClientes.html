@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Reporte Compras Mensuales |Altos Del Abejonal</title>
+    <title>Estado de Pedidos Clientes | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
@@ -23,6 +23,7 @@
     <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
@@ -97,7 +98,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a href="apps-contact.html" class="dropdown-item">
                                     <div class="dropdown-icon"><i class="fa fa-user-cog"></i></div>
-                                    <span class="dropdown-content">My Account</span>
+                                    <span class="dropdown-content">Mi Cuenta</span>
                                 </a>
                             </div>
                         </div>
@@ -172,7 +173,7 @@
                         <!--Start App Search-->
                         <form class="app-search d-none d-lg-block">
                             <div class="position-relative">
-                                <input type="text" class="form-control" placeholder="Search...">
+                                <input type="text" class="form-control" placeholder="Buscar">
                                 <span class="fab fa-sistrix fs-17 align-middle"></span>
                             </div>
                         </form>
@@ -368,7 +369,7 @@
                 <!-- End menu -->
             </div>
         </header>
-        <!-- End topbar -->
+
         <!-- ========== Left Sidebar Start ========== -->
         <div class="sidebar-left">
 
@@ -398,6 +399,7 @@
 
                             </ul>
                         </li>
+
                         <!--Informes Financieros-->
                         <li class="menu-title">Informes Financieros</li>
                         <li>
@@ -539,132 +541,313 @@
         <!-- ============================================================== -->
         <div class="main-content">
 
-        </div>
-        <div class="row">
-            <div class="col-xxl-9">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-icon">
-                            <i class="fas fa-cart-plus fs-14 text-muted"></i>
-                        </div>
-                        <h4 class="card-title mb-0">Ventas Generales</h4>
-                        <div class="dropdown card-addon">
-                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="mdi mdi-dots-sidebar"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ventas por categoría</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Pedidos</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ganancias</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ventas</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Total de ventas</p>
-                                        <h5 class="mb-0">₡34,254</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>2.2%
-                                    </div>
-                                </div>
-                            </div>
+            <div class="page-content">
+                <div class="container-fluid">
 
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Última Venta</p>
-                                        <h5 class="mb-0">₡12,253</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>2.1%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Gastos</p>
-                                        <h5 class="mb-0">-₡10</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>1.8%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div id="sales_figures" data-colors='["--bs-info", "--bs-success"]' class="apex-charts" dir="ltr"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="card bg-danger-subtle" style="background: url('assets/images/dashboard/dashboard-shape-1.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-danger">
-                                        <i class="mdi mdi-buffer mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-danger mb-1">Saldo Total</p>
-                                        <h4 class="mb-0">₡1,452.55</h4>
-                                    </div>
-                                </div>
-                                <div class="hstack gap-2 mt-3">
-                                    <button class="btn btn-light">Aceptar</button>
-                                    <button class="btn btn-info">Verificar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="card bg-success-subtle" style="background: url('assets/images/dashboard/dashboard-shape-2.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-success">
-                                        <i class="mdi mdi-cash-usd-outline mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-success mb-1">Próximos pagos</p>
-                                        <h4 class="mb-0">₡120</h4>
-                                    </div>
-                                </div>
-                                <div class="mt-3 mb-2">
-                                    <p class="mb-0">4 no confirmados</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="card bg-info-subtle" style="background: url('assets/images/dashboard/dashboard-shape-3.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-info">
-                                        <i class="mdi mdi-webhook mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-info mb-1">Ventas realizadas.</p>
-                                        <h4 class="mb-0">72</h4>
-                                    </div>
-                                </div>
-                                <div class="mt-3 mb-2">
-                                    <p class="mb-0"><span class="text-primary me-2 fs-14"><i class="fas fa-caret-up me-1"></i>3.4%</span>vs último mes</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-sm-0">Estado de Pedidos Clientes</h4>
 
-                <!-- container-fluid -->
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Pedidos</a></li>
+                                        <li class="breadcrumb-item active">Estado de Pedidos</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <table id="datatable-fixedcolumn" class="table table-hover table-bordered table-striped dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                        <thead>
+                                            <tr>
+                                                <th>ID Pedido</th>
+                                                <th>Fecha</th>
+                                                <th>Estado</th>
+                                                <th>Producto</th>
+                                                <th>Cantidad</th>
+                                                <th>Entregado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>17-08-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>16-08-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>15</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>15-08-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>20</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>14-08-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>10</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>13-08-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>18</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>12-08-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>22</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>11-08-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>16</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>10-08-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>14</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>09-08-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>19</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>08-08-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>11</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>07-08-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>13</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>12</td>
+                                                <td>06-08-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>21</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>13</td>
+                                                <td>05-08-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>17</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>14</td>
+                                                <td>04-08-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>23</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>15</td>
+                                                <td>03-08-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>25</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>16</td>
+                                                <td>02-08-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>9</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>17</td>
+                                                <td>01-08-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>14</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>31-07-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>8</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>19</td>
+                                                <td>30-07-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>20</td>
+                                                <td>29-07-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>24</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>21</td>
+                                                <td>28-07-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>18</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>22</td>
+                                                <td>27-07-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>20</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23</td>
+                                                <td>26-07-2024</td>
+                                                <td>Entregado</td>
+                                                <td>Cafe</td>
+                                                <td>7</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>24</td>
+                                                <td>25-07-2024</td>
+                                                <td>Cancelado</td>
+                                                <td>Cafe</td>
+                                                <td>10</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>24-07-2024</td>
+                                                <td>En camino</td>
+                                                <td>Cafe</td>
+                                                <td>21</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>23-07-2024</td>
+                                                <td>Procesando</td>
+                                                <td>Cafe</td>
+                                                <td>16</td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
             </div>
             <!-- End Page-content -->
 
@@ -682,6 +865,7 @@
                     </div>
                 </div>
             </footer>
+
         </div>
         <!-- end main content-->
 
@@ -866,16 +1050,22 @@
             <script src="assets/libs/simplebar/simplebar.min.js"></script>
             <script src="assets/libs/node-waves/waves.min.js"></script>
 
-            <!-- apexcharts -->
-            <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+            <!-- Required datatable js -->
+            <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+            <script src="assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
 
-            <script src="https://apexcharts.com/samples/assets/stock-prices.js"></script>
+            <!-- fixedcolumns examples -->
+            <script src="assets/libs/datatables.net-fixedcolumns/js/dataTables.fixedColumns.min.js"></script>
+            <script src="assets/libs/datatables.net-fixedcolumns-bs5/js/fixedColumns.bootstrap5.min.js"></script>
 
-            <!-- linecharts init -->
-            <script src="assets/js/pages/apexcharts-line.init.js"></script>
+            <!-- Responsive examples -->
+            <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+            <script src="assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
 
-            <!-- App js -->
+            <!-- Datatable init js -->
+            <script src="assets/js/pages/datatables-extension.init.js"></script>
+
             <script src="assets/js/app.js"></script>
-</body>
 
+</body>
 </html>

@@ -435,7 +435,31 @@
                                 <span>Clientes</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="form-DatosCliente.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
+                                <li><a href="Clientes.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
+                                <li><a href="ui-EstadoPedidosClientes.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Pedidos de Clientes</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fa fa-window-restore"></i>
+                                <span>Cotizaciones</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="Cotizaciones.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Creación de cotización</a></li>
+                                <li><a href="ui-CotizacionesRealizadas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Cotizaciones existentes</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fa fa-window-restore"></i>
+                                <span>Ventas</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="ReporteVentas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Datos de Ventas</a></li>
+
+
                             </ul>
                         </li>
 
@@ -560,6 +584,7 @@
                                                 <th>Precio</th>
                                                 <th>Acción</th>
                                                 <th>Seleccionar</th>
+                                                <th>Pendiente de compra</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -577,6 +602,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7500">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
 
                                             <tr>
@@ -593,6 +621,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="5200">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café 1820 Tradicional</td>
@@ -607,6 +638,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="3800">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -623,6 +657,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="6300">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café Rey Superior</td>
@@ -637,6 +674,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="4500">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -653,6 +693,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="6800">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café Dota Selecto</td>
@@ -667,6 +710,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7200">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -683,6 +729,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="3500">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café Tres Generaciones</td>
@@ -697,6 +746,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="8500">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -713,6 +765,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="6000">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café El Roble</td>
@@ -727,6 +782,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7800">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -743,6 +801,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="4200">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café Tarrazú Premium</td>
@@ -757,6 +818,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7300">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -773,6 +837,9 @@
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="3900">
                                                 </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Café Cerro Bueno</td>
@@ -788,6 +855,9 @@
                                                 </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7600">
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" name="select" value="SI">
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -839,13 +909,21 @@
                                     <div style="text-align: center;">
                                         <button type="button" class="btn btn-primary" onclick="generateQuotation()">Generar Cotización</button>
                                     </div>
-                                </form>
+                                    <br />
+                                    <div style="text-align: center;">
+                                    <button class="btn btn-primary" onclick="location.href=''">Generar PDF</button>
                             </div>
+                            </form>
+                        </div>
                         </div>
                     </div> <!-- end col -->
                 </div>
                 <!-- end row -->
-
+                <div style="text-align: center;">
+                    <button class="btn btn-primary" onclick="location.href=''">Crear Cotización</button>
+                </div>
+                
+            </div>
                 <script>
                     function generateQuotation() {
                         let selectedProducts = document.querySelectorAll('input[name="selectProduct"]:checked');

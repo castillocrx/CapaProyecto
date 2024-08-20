@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Inicio | Altos del Abejonal</title>
+    <title>Reporte de Ventas | Altos del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
@@ -422,7 +422,6 @@
                             </ul>
                         </li>
                         <!--Cotizaciones-->
-
                         <li class="menu-title">Cotizaciones y Ventas</li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
@@ -453,10 +452,11 @@
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="ReporteVentas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Datos de Ventas</a></li>
-                                
+
 
                             </ul>
                         </li>
+
                         <!--Compras-->
 
                         <li class="menu-title">Compras</li>
@@ -563,7 +563,7 @@
                                     <div class="card-icon">
                                         <i class="fas fa-cart-plus fs-14 text-muted"></i>
                                     </div>
-                                    <h4 class="card-title mb-0">Ventas Generales</h4>
+                                    <h4 class="card-title mb-0">VENTAS</h4>
                                     <div class="dropdown card-addon">
                                         <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i class="mdi mdi-dots-sidebar"></i>
@@ -776,22 +776,24 @@
                                 <div class="col-12">
                                     <div class="card" style="height: 495px; overflow: hidden auto;" data-simplebar="init">
                                         <div class="card-header">
-                                            <div class="card-icon text-muted"><i class="fas fa-sync-alt fs-14"></i></div>
-                                            <h3 class="card-title">Pedidos</h3>
+                                            <div class="card-icon text-muted"><i class="fas fa-dollar-sign fs-14"></i></div>
+                                            <h3 class="card-title">Comisiones y Metas de Ventas</h3>
                                             <div class="card-addon dropdown">
-                                                <button class="btn btn-label-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown"> <i class="fas fa-filter fs-12 align-middle ms-1"></i></button>
+                                                <button class="btn btn-label-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown">
+                                                    <i class="fas fa-filter fs-12 align-middle ms-1"></i>
+                                                </button>
                                                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
                                                     <a class="dropdown-item" href="#">
-                                                        <div class="dropdown-icon"><i class="fa fa-poll"></i></div>
-                                                        <span class="dropdown-content">Hoy</span>
+                                                        <div class="dropdown-icon"><i class="fa fa-calendar-day"></i></div>
+                                                        <span class="dropdown-content">Último Mes</span>
                                                     </a>
                                                     <a class="dropdown-item" href="#">
-                                                        <div class="dropdown-icon"><i class="fa fa-chart-pie"></i></div>
-                                                        <span class="dropdown-content">Hace un día</span>
+                                                        <div class="dropdown-icon"><i class="fa fa-calendar-week"></i></div>
+                                                        <span class="dropdown-content">Último Trimestre</span>
                                                     </a>
                                                     <a class="dropdown-item" href="#">
-                                                        <div class="dropdown-icon"><i class="fa fa-chart-line"></i></div>
-                                                        <span class="dropdown-content">Hace una semana</span>
+                                                        <div class="dropdown-icon"><i class="fa fa-calendar-alt"></i></div>
+                                                        <span class="dropdown-content">Último Año</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -801,193 +803,99 @@
                                                 <table class="table text-nowrap mb-0">
                                                     <thead>
                                                         <tr>
-                                                            <th>ID orden</th>
-                                                            <th>Estado</th>
-                                                            <th>Operarios</th>
-                                                            <th>Dirección</th>
-                                                            <th>Progreso</th>
-                                                            <th>Fecha de encargo</th>
-                                                            <th>Fecha de entrega</th>
-                                                            <td>Entregado</td>
+                                                            <th>ID Vendedor</th>
+                                                            <th>Vendedor</th>
+                                                            <th>Comisiones Generadas</th>
+                                                            <th>Meta Mensual</th>
+                                                            <th>Progreso Hacia la Meta</th>
+                                                            <th>Última Actualización</th>
+                                                            <th>Acción</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td class="align-middle">837563</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-primary"></i> Entregado</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-1.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-3.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-4.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-5.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">Italia</td>
-                                                            <td class="align-middle">
-                                                                <div class="">
-                                                                    <h6 class="">90%</h6>
-                                                                    <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 90%"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">26/06/2024</td>
-                                                            <td class="align-middle">01/07/2024</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="align-middle">982365</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-danger"></i> Pendiente</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-6.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-7.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-8.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">San Francisco</td>
-                                                            <td class="align-middle">
-                                                                <div class="">
-                                                                    <h6 class="">20%</h6>
-                                                                    <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 20%"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">23/04/2024</td>
-                                                            <td class="align-middle">26/04/2024</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="align-middle">872048</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-success"></i> En proceso</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-5.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-4.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-1.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">Dinamarca</td>
-                                                            <td class="align-middle">
-                                                                <div class="">
-                                                                    <h6 class="">75%</h6>
-                                                                    <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 75%"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">26/04/2024</td>
-                                                            <td class="align-middle">12/05/2024</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="align-middle">324712</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-warning"></i> En espera</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-3.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-4.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-5.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">México</td>
-                                                            <td class="align-middle">
-                                                                <div class="">
-                                                                    <h6 class="">30%</h6>
-                                                                    <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 30%"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">26/06/2024</td>
-                                                            <td class="align-middle">28/06/2024</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="align-middle">128747</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-success"></i> En proceso</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-6.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-7.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-8.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-5.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">Nueva York</td>
+                                                            <td class="align-middle">001</td>
+                                                            <td class="align-middle">Juan Pérez</td>
+                                                            <td class="align-middle">₡3,000</td>
+                                                            <td class="align-middle">₡5,000</td>
                                                             <td class="align-middle">
                                                                 <div class="">
                                                                     <h6 class="">60%</h6>
                                                                     <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 60%"></div>
+                                                                        <div class="progress-bar bg-success" style="width: 60%"></div>
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td class="align-middle">10/09/2024</td>
-                                                            <td class="align-middle">15/09/2024</td>
+                                                            <td class="align-middle">20/08/2024</td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Generar Informe</button>
+                                                            </td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Asignar Meta</button>
+                                                            </td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="align-middle">415423</td>
-                                                            <td class="align-middle"><i class="marker marker-dot m-0 me-2 text-danger"></i> Pendiente</td>
-                                                            <td class="align-middle">
-                                                                <div class="avatar-group">
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                    <div class="avatar avatar-circle">
-                                                                        <img src="assets/images/users/avatar-6.png" alt="Avatar image" class="avatar-2xs">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align-middle">Londres</td>
+                                                            <td class="align-middle">002</td>
+                                                            <td class="align-middle">María López</td>
+                                                            <td class="align-middle">₡4,500</td>
+                                                            <td class="align-middle">₡6,000</td>
                                                             <td class="align-middle">
                                                                 <div class="">
-                                                                    <h6 class="">72%</h6>
+                                                                    <h6 class="">75%</h6>
                                                                     <div class="progress progress-sm">
-                                                                        <div class="progress-bar bg-primary" style="width: 72%"></div>
+                                                                        <div class="progress-bar bg-warning" style="width: 75%"></div>
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td class="align-middle">05/06/2024</td>
-                                                            <td class="align-middle">26/06/2024</td>
+                                                            <td class="align-middle">20/08/2024</td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Generar Informe</button>
+                                                            </td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Asignar Meta</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="align-middle">003</td>
+                                                            <td class="align-middle">Carlos Rodríguez</td>
+                                                            <td class="align-middle">₡2,800</td>
+                                                            <td class="align-middle">₡4,000</td>
+                                                            <td class="align-middle">
+                                                                <div class="">
+                                                                    <h6 class="">70%</h6>
+                                                                    <div class="progress progress-sm">
+                                                                        <div class="progress-bar bg-info" style="width: 70%"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="align-middle">20/08/2024</td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Generar Informe</button>
+                                                            </td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Asignar Meta</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="align-middle">004</td>
+                                                            <td class="align-middle">Ana García</td>
+                                                            <td class="align-middle">₡1,500</td>
+                                                            <td class="align-middle">₡3,500</td>
+                                                            <td class="align-middle">
+                                                                <div class="">
+                                                                    <h6 class="">42%</h6>
+                                                                    <div class="progress progress-sm">
+                                                                        <div class="progress-bar bg-danger" style="width: 42%"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="align-middle">20/08/2024</td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Generar Informe</button>
+                                                            </td>
+                                                            <td>
+                                                                <button class="btn btn-info" onclick="location.href=''">Asignar Meta</button>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -996,231 +904,249 @@
                                     </div>
                                 </div>
                             </div>
+
+
+                            <div class="col-xxl-3">
+                                <div class="row">
+                                    <div class="col-xxl-12 col-xl-6 order-1">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="float-end">
+                                                    <select class="form-select form-select-sm">
+                                                        <option selected>Mensual</option>
+                                                        <option value="1">Trimestral</option>
+                                                        <option value="2">Anual</option>
+                                                    </select>
+                                                </div>
+                                                <h4 class="card-title mb-4">Análisis de ventas</h4>
+                                                <div id="pattern_chart" data-colors='["--bs-primary", "--bs-success", "--bs-warning", "--bs-danger", "--bs-info"]' class="apex-charts" dir="ltr"></div>
+
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div class="text-center mt-4">
+                                                            <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-primary font-size-10 me-1"></i> Producto A</p>
+                                                            <h5>42 %</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="text-center mt-4">
+                                                            <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-success font-size-10 me-1"></i> Producto B</p>
+                                                            <h5>26 %</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="text-center mt-4">
+                                                            <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-warning font-size-10 me-1"></i> Producto C</p>
+                                                            <h5>42 %</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="text-center mt-4">
+                                                    <button class="btn btn-primary" onclick="generarReporte()">Generar Reporte</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
-
-                        <div class="col-xxl-3">
-                            <div class="row">
-                                <div class="col-xxl-12 col-xl-6 order-1">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="float-end">
-                                                <select class="form-select form-select-sm">
-                                                    <option selected>Abr</option>
-                                                    <option value="1">Mar</option>
-                                                    <option value="2">Feb</option>
-                                                    <option value="3">Ene</option>
-                                                </select>
-                                            </div>
-                                            <h4 class="card-title mb-4">Análisis de ventas</h4>
-                                            <div id="pattern_chart" data-colors='["--bs-primary", "--bs-success", "--bs-warning", "--bs-danger", "--bs-info"]' class="apex-charts" dir="ltr"></div>
-
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-primary font-size-10 me-1"></i> Producto A</p>
-                                                        <h5>42 %</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-success font-size-10 me-1"></i> Producto B</p>
-                                                        <h5>26 %</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="text-center mt-4">
-                                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle text-warning font-size-10 me-1"></i> Producto C</p>
-                                                        <h5>42 %</h5>
-                                                    </div>
-
-                                                    <div class="text-center mt-4">
-                                                        <button class="btn btn-primary" onclick="generarReporte()">Generar Reporte</button>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
+                </div>
+                <div class="col-xxl-12 order-4 order-xxl-2">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon text-muted"><i class="fa fa-bell"></i></div>
+                            <h3 class="card-title">Notificaciones</h3>
+                            <div class="card-addon">
+                                <div class="dropdown">
+                                    <button class="btn btn-sm py-0 btn-label-primary dropdown-toggle" data-bs-toggle="dropdown">Todos <i class="mdi mdi-chevron-down fs-17 align-middle ms-1"></i></button>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
+                                        <a class="dropdown-item" href="#"><span class="badge badge-label-primary">Personal</span> </a>
+                                        <a class="dropdown-item" href="#"><span class="badge badge-label-info">Trabajo</span> </a>
+                                        <a class="dropdown-item" href="#"><span class="badge badge-label-success">Importante</span> </a>
+                                        <a class="dropdown-item" href="#"><span class="badge badge-label-danger">Compañía</span></a>
                                     </div>
                                 </div>
-                                <div class="col-xxl-12 order-4 order-xxl-2">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <div class="card-icon text-muted"><i class="fa fa-bell"></i></div>
-                                            <h3 class="card-title">Notificaciones</h3>
-                                            <div class="card-addon">
-                                                <div class="dropdown">
-                                                    <button class="btn btn-sm py-0 btn-label-primary dropdown-toggle" data-bs-toggle="dropdown">Todos <i class="mdi mdi-chevron-down fs-17 align-middle ms-1"></i></button>
-                                                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
-                                                        <a class="dropdown-item" href="#"><span class="badge badge-label-primary">Personal</span> </a>
-                                                        <a class="dropdown-item" href="#"><span class="badge badge-label-info">Trabajo</span> </a>
-                                                        <a class="dropdown-item" href="#"><span class="badge badge-label-success">Importante</span> </a>
-                                                        <a class="dropdown-item" href="#"><span class="badge badge-label-danger">Compañía</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="rich-list rich-list-bordered rich-list-action">
-                                                <div class="rich-list-item">
-                                                    <div class="rich-list-prepend">
-                                                        <div class="avatar avatar-xs avatar-label-info">
-                                                            <div class=""><i class="fa fa-file-invoice"></i></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="rich-list-content">
-                                                        <h4 class="rich-list-title mb-1">Nuevo reporte</h4>
-                                                        <p class="rich-list-subtitle mb-0">Hace 2 minutos</p>
-                                                    </div>
-                                                    <div class="rich-list-append">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
-                                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
-                                                                    <span class="dropdown-content">Listo</span>
-                                                                </a>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
-                                                                    <span class="dropdown-content">Eliminar</span>
-                                                                </a>
-                                                                <div class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
-                                                                    <span class="dropdown-content">Ajustes</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="rich-list-item">
-                                                    <div class="rich-list-prepend">
-                                                        <div class="avatar avatar-xs avatar-label-success">
-                                                            <div class=""><i class="fa fa-shopping-basket"></i></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="rich-list-content">
-                                                        <h4 class="rich-list-title mb-1">Última orden actualizada</h4>
-                                                        <p class="rich-list-subtitle mb-0">Hace una hora</p>
-                                                    </div>
-                                                    <div class="rich-list-append">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
-                                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
-                                                                    <span class="dropdown-content">Listo</span>
-                                                                </a>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
-                                                                    <span class="dropdown-content">Eliminar</span>
-                                                                </a>
-                                                                <div class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
-                                                                    <span class="dropdown-content">Ajustes</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="rich-list-item">
-                                                    <div class="rich-list-prepend">
-                                                        <div class="avatar avatar-xs avatar-label-danger">
-                                                            <div class=""><i class="fa fa-users"></i></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="rich-list-content">
-                                                        <h4 class="rich-list-title mb-1">Reunión cancelada</h4>
-                                                        <p class="rich-list-subtitle mb-0">Hace 5 horas</p>
-                                                    </div>
-                                                    <div class="rich-list-append">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
-                                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
-                                                                    <span class="dropdown-content">Listo</span>
-                                                                </a>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
-                                                                    <span class="dropdown-content">Eliminar</span>
-                                                                </a>
-                                                                <div class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#">
-                                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
-                                                                    <span class="dropdown-content">Ajustes</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="rich-list rich-list-bordered rich-list-action">
+                                <div class="rich-list-item">
+                                    <div class="rich-list-prepend">
+                                        <div class="avatar avatar-xs avatar-label-info">
+                                            <div class=""><i class="fa fa-file-invoice"></i></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xxl-12 order-3">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Ganancias de la compañía</h4>
-                                            <div class="dropdown card-addon">
-                                                <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <i class="mdi mdi-dots-sidebar"></i>
+                                    <div class="rich-list-content">
+                                        <h4 class="rich-list-title mb-1">Nueva comisión ganada</h4>
+                                        <p class="rich-list-subtitle mb-0">Hace 2 minutos</p>
+                                    </div>
+                                    <div class="rich-list-append">
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
+                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
+                                                    <span class="dropdown-content">Listo</span>
                                                 </a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <!-- item-->
-                                                    <a href="javascript:void(0);" class="dropdown-item">Reportes de ventas</a>
-                                                    <!-- item-->
-                                                    <a href="javascript:void(0);" class="dropdown-item">Exportar reporte</a>
-                                                    <!-- item-->
-                                                    <a href="javascript:void(0);" class="dropdown-item">Verificar</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="">
-                                                <div class="mb-3">
-                                                    <div id="semi_donut_chart" data-colors='["--bs-primary", "--bs-warning"]' class="apex-charts" dir="ltr"></div>
-                                                </div>
-
-                                                <div class="row justify-content-center mt-n5">
-                                                    <div class="col-6">
-                                                        <div class="p-2 shadow">
-                                                            <p class="text-muted text-truncate mb-2">Ganancias</p>
-                                                            <h5 class="mb-0">₡15.5k <span class="fs-12 text-primary ms-2"><i class="mdi mdi-arrow-up"></i> 17%</span></h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="p-2 shadow">
-                                                            <p class="text-muted text-truncate mb-2">Gastos</p>
-                                                            <h5 class="mb-0">₡11.4k <span class="fs-12 text-danger ms-2"><i class="mdi mdi-arrow-down"></i> 14%</span></h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div>
-                                                    <div id="bar_chart" data-colors='["--bs-danger"]' class="apex-charts" dir="ltr"></div>
-                                                </div>
-
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
+                                                    <span class="dropdown-content">Eliminar</span>
+                                                </a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
+                                                    <span class="dropdown-content">Ajustes</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-12 col-xl-6 order-2 order-xxl-4">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <div class="card-icon">
-                                                <i class="fas fa-calendar-alt fs-14 text-muted"></i>
-                                            </div>
-                                            <h4 class="card-title mb-0">Ventas Por Periodo</h4>
-                                        </div>
-                                        <div class="card-body">
-                                            <div id="monthly_states" data-colors='["--bs-success", "--bs-danger", "--bs-warning"]' class="apex-charts" dir="ltr"></div>
+                                <div class="rich-list-item">
+                                    <div class="rich-list-prepend">
+                                        <div class="avatar avatar-xs avatar-label-success">
+                                            <div class=""><i class="fa fa-shopping-basket"></i></div>
                                         </div>
                                     </div>
+                                    <div class="rich-list-content">
+                                        <h4 class="rich-list-title mb-1">Última orden actualizada</h4>
+                                        <p class="rich-list-subtitle mb-0">Hace una hora</p>
+                                    </div>
+                                    <div class="rich-list-append">
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
+                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
+                                                    <span class="dropdown-content">Listo</span>
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
+                                                    <span class="dropdown-content">Eliminar</span>
+                                                </a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
+                                                    <span class="dropdown-content">Ajustes</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rich-list-item">
+                                    <div class="rich-list-prepend">
+                                        <div class="avatar avatar-xs avatar-label-danger">
+                                            <div class=""><i class="fa fa-users"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="rich-list-content">
+                                        <h4 class="rich-list-title mb-1">Reunión cancelada</h4>
+                                        <p class="rich-list-subtitle mb-0">Hace 5 horas</p>
+                                    </div>
+                                    <div class="rich-list-append">
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-label-secondary btn-icon" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h fs-12"></i></button>
+                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-check"></i></div>
+                                                    <span class="dropdown-content">Listo</span>
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-trash-alt"></i></div>
+                                                    <span class="dropdown-content">Eliminar</span>
+                                                </a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="dropdown-icon"><i class="fa fa-cog"></i></div>
+                                                    <span class="dropdown-content">Ajustes</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-12 order-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Ganancias de la compañía</h4>
+                            <div class="dropdown card-addon">
+                                <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="mdi mdi-dots-horizontal"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item" onclick="generarReporte('ventas')">Reportes de ventas</a>
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item" onclick="exportarReporte()">Exportar reporte</a>
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item">Verificar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="">
+                                <div class="mb-3">
+                                    <div id="semi_donut_chart" data-colors='["--bs-primary", "--bs-warning"]' class="apex-charts" dir="ltr"></div>
+                                </div>
+
+                                <div class="row justify-content-center mt-n5">
+                                    <div class="col-6">
+                                        <div class="p-2 shadow">
+                                            <p class="text-muted text-truncate mb-2">Ganancias</p>
+                                            <h5 class="mb-0">₡15.5k <span class="fs-12 text-primary ms-2"><i class="mdi mdi-arrow-up"></i> 17%</span></h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="p-2 shadow">
+                                            <p class="text-muted text-truncate mb-2">Gastos</p>
+                                            <h5 class="mb-0">₡11.4k <span class="fs-12 text-danger ms-2"><i class="mdi mdi-arrow-down"></i> 14%</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div id="bar_chart" data-colors='["--bs-danger"]' class="apex-charts" dir="ltr"></div>
                                 </div>
 
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function generarReporte(tipo) {
+                        const periodo = prompt("Seleccione el periodo (Mensual, Trimestral, Semanal):");
+
+                        //
+                        alert(`Generando reporte de ${tipo} para el periodo: ${periodo}`);
+                    }
+
+                    function exportarReporte() {
+                       //
+                        alert("Exportando reporte...");
+                    }
+                </script>
+
+                <div class="col-xxl-12 col-xl-6 order-2 order-xxl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-calendar-alt fs-14 text-muted"></i>
+                            </div>
+                            <h4 class="card-title mb-0">Ventas Por Periodo</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="monthly_states" data-colors='["--bs-success", "--bs-danger", "--bs-warning"]' class="apex-charts" dir="ltr"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
                         </div>
                     </div>
                     <!-- end row -->

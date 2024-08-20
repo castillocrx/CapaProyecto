@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Clivax_v1.0.0",
+    "\\Clivax_v1.0.0\\HTML",
+    "\\Clivax_v1.0.0\\HTML\\dist",
+    "\\Clivax_v1.0.0\\HTML\\src"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\C:\\Users\\heaa1\\Source\\Repos\\CapaProyecto",
+=======
+  "SelectedNode": "\\Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
