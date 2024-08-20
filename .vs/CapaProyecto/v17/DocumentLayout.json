@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -251,40 +243,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioEliminado.html",
-              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAABiAAAA",
+              "Title": "apps-kanban.html",
+              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html",
+              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html",
+              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html",
+              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\apps-kanban.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T07:55:02.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioAgregado.html",
-              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T07:54:11.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResumenFinanciero.html",
-              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAACgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T04:39:43.346Z",
+              "WhenOpened": "2024-08-20T23:45:07.352Z",
               "EditorCaption": ""
             }
           ]
