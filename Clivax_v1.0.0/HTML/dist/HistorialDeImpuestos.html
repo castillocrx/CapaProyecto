@@ -4,12 +4,19 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Stock | Altos Del Abejonal</title>
+    <title>Cotizaciones | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/AltosAbejonal.jpeg">
+
+    <!-- DataTables -->
+    <link href="assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Responsive datatable examples -->
+    <link href="assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet"
+        type="text/css" />
 
 
     <!-- dark layout js -->
@@ -25,6 +32,7 @@
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
 </head>
+
 <body>
 
     <!-- Begin page -->
@@ -296,12 +304,14 @@
                                 <span>Inventario</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="GestionProductos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Productos</a></li>
-                                <li><a href="Stock.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Stock</a></li>
+                                <li><a href="GestionProductos.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de
+                                        Productos</a></li>
+                                <li><a href="Stock.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Stock</a></li>
 
                             </ul>
                         </li>
-
                         <!--Informes Financieros-->
                         <li class="menu-title">Informes Financieros</li>
                         <li>
@@ -310,7 +320,9 @@
                                 <span>Facturas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="Facturas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Facturas</a></li>
+                                <li><a href="Facturas.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de
+                                        Facturas</a></li>
                             </ul>
                         </li>
 
@@ -320,7 +332,9 @@
                                 <span>Resumen Financiero</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ResumenFinanciero.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>ResumenFinanciero</a></li>
+                                <li><a href="ResumenFinanciero.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>ResumenFinanciero</a>
+                                </li>
                             </ul>
                         </li>
 
@@ -333,8 +347,11 @@
                                 <span>Clientes</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="Clientes.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
-                                <li><a href="ui-EstadoPedidosClientes.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Pedidos de Clientes</a></li>
+                                <li><a href="Clientes.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Clientes</a></li>
+                                <li><a href="ui-EstadoPedidosClientes.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Pedidos de
+                                        Clientes</a></li>
 
                             </ul>
                         </li>
@@ -344,8 +361,12 @@
                                 <span>Cotizaciones</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="Cotizaciones.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Creación de cotización</a></li>
-                                <li><a href="ui-CotizacionesRealizadas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Cotizaciones existentes</a></li>
+                                <li><a href="Cotizaciones.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Creación de
+                                        cotización</a></li>
+                                <li><a href="ui-CotizacionesRealizadas.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Cotizaciones
+                                        existentes</a></li>
 
                             </ul>
                         </li>
@@ -355,7 +376,9 @@
                                 <span>Ventas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ReporteVentas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Datos de Ventas</a></li>
+                                <li><a href="ReporteVentas.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Datos de Ventas</a>
+                                </li>
 
 
                             </ul>
@@ -371,7 +394,9 @@
                                 <span>Pedidos</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ui-EstadoPedidos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Estado de Pedidos</a></li>
+                                <li><a href="ui-EstadoPedidos.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Estado de Pedidos</a>
+                                </li>
                             </ul>
                         </li>
 
@@ -381,7 +406,9 @@
                                 <span>Compras</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ui-ComprasRealizadas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Compras Realizadas</a></li>
+                                <li><a href="ui-ComprasRealizadas.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Compras
+                                        Realizadas</a></li>
                             </ul>
                         </li>
 
@@ -391,8 +418,12 @@
                                 <span>Reportes</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ui-ReporteCompras.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes Empresa</a></li>
-                                <li><a href="ui-ReporteComprasMensual.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes Proveedores</a></li>
+                                <li><a href="ui-ReporteCompras.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes Empresa</a>
+                                </li>
+                                <li><a href="ui-ReporteComprasMensual.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i>Reportes
+                                        Proveedores</a></li>
                             </ul>
                         </li>
 
@@ -406,8 +437,10 @@
                                 <span>Autenticación</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="auth-login.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Iniciar Sesión</a></li>
-                                <li><a href="auth-register.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Registrarse</a></li>
+                                <li><a href="auth-login.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>
+                                        Iniciar Sesión</a></li>
+                                <li><a href="auth-register.html"><i
+                                            class="mdi mdi-checkbox-blank-circle align-middle"></i> Registrarse</a></li>
                             </ul>
                         </li>
 
@@ -417,8 +450,10 @@
                                 <span>Errores</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="pages-404.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Error 404</a></li>
-                                <li><a href="pages-500.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i> Error 500</a></li>
+                                <li><a href="pages-404.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>
+                                        Error 404</a></li>
+                                <li><a href="pages-500.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>
+                                        Error 500</a></li>
                             </ul>
                         </li>
 
@@ -450,12 +485,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Inventario</h4>
+                                <h4 class="mb-sm-0">Impuestos</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Inventario</a></li>
-                                        <li class="breadcrumb-item active">Stock</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Impuestos</a></li>
+                                        <li class="breadcrumb-item active">Historial de Impuestos</li>
                                     </ol>
                                 </div>
 
@@ -468,152 +503,67 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title">Sección de Productos</h4>
+                                    <h4 class="card-title">Historial de Impuestos</h4>
                                 </div>
                                 <div class="card-body">
-                                    <div class="border-bottom text-center pb-3">
-                                        <div class="d-flex align-items-center justify-content-center">
-                                            <span class="text-primary fs-24 me-2"><i
-                                                    class="fas fa-arrow-circle-right"></i></span>
-                                            <h4 class="display-5 mb-0">243</h4>
-                                        </div>
-                                        <p class="text-muted mb-0">Productos en Stock</p>
-                                    </div>
                                     <table id="datatable"
                                         class="table table-hover table-bordered table-striped dt-responsive nowrap"
                                         style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                                         <thead>
                                             <tr>
-                                                <th>Nombre</th>
-                                                <th>Tipo de Grano</th>
-                                                <th>Tipo de Presentación</th>
-                                                <th>Stock</th>
-                                                <th>Categoria</th>
-                                                <th>Precio</th>
+                                                <th>ID</th>
+                                                <th>Nombre de Impuesto</th>
+                                                <th>Impuesto </th>
+                                                <th>Fecha de Pago</th>
+                                                <th>Total Pagado</th>                                              
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Café Volcán Azul</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>25</td>
-                                                <td>Especialidad</td>
-                                                <td>₡7,500</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Café Britt Clásico</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>40</td>
-                                                <td>Gourmet</td>
-                                                <td>₡5,200</td>
+                                                <td>1</td>
+                                                <td>Venta</td>
+                                                <td>13%</td>
+                                                <td>08/08/2024</td>
+                                                <td>₡14,000</td>
                                             </tr>
                                             <tr>
-                                                <td>Café 1820 Tradicional</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>100</td>
-                                                <td>Común</td>
-                                                <td>₡3,800</td>
+                                                <td>2</td>
+                                                <td>Renta</td>
+                                                <td>25%</td>
+                                                <td>08/08/2024</td>
+                                                <td>₡50,000</td>
                                             </tr>
                                             <tr>
-                                                <td>Café Naranjo Reserva</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>30</td>
-                                                <td>Especialidad</td>
-                                                <td>₡6,300</td>
+                                                <td>3</td>
+                                                <td>Municipal</td>
+                                                <td>1%</td>
+                                                <td>08/08/2024</td>
+                                                <td>₡2,000</td>
                                             </tr>
                                             <tr>
-                                                <td>Café Rey Superior</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>50</td>
-                                                <td>Común</td>
-                                                <td>₡4,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Monteverde</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>35</td>
-                                                <td>Gourmet</td>
-                                                <td>₡6,800</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Dota Selecto</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>45</td>
-                                                <td>Especialidad</td>
-                                                <td>₡7,200</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Buen Día</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>75</td>
-                                                <td>Común</td>
+                                                <td>4</td>
+                                                <td>Patente Comercial</td>
+                                                <td>2%</td>
+                                                <td>08/08/2024</td>
                                                 <td>₡3,500</td>
                                             </tr>
                                             <tr>
-                                                <td>Café Tres Generaciones</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>20</td>
-                                                <td>Gourmet</td>
-                                                <td>₡8,500</td>
+                                                <td>5</td>
+                                                <td>Seguro Social</td>
+                                                <td>9.34%</td>
+                                                <td>08/08/2024</td>
+                                                <td>₡8,000</td>
                                             </tr>
                                             <tr>
-                                                <td>Café La Pastora</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>60</td>
-                                                <td>Especialidad</td>
-                                                <td>₡6,000</td>
+                                                <td>6</td>
+                                                <td>IVA Importación</td>
+                                                <td>13%</td>
+                                                <td>08/08/2024</td>
+                                                <td>₡15,000</td>
+                                                <td>
                                             </tr>
-                                            <tr>
-                                                <td>Café El Roble</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>28</td>
-                                                <td>Gourmet</td>
-                                                <td>₡7,800</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Oro</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>55</td>
-                                                <td>Común</td>
-                                                <td>₡4,200</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Tarrazú Premium</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>32</td>
-                                                <td>Especialidad</td>
-                                                <td>₡7,300</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Libertad</td>
-                                                <td>Arábica</td>
-                                                <td>Molido</td>
-                                                <td>80</td>
-                                                <td>Común</td>
-                                                <td>₡3,900</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Café Cerro Bueno</td>
-                                                <td>Arábica</td>
-                                                <td>Grano entero</td>
-                                                <td>22</td>
-                                                <td>Gourmet</td>
-                                                <td>₡7,600</td>
-                                            </tr>
+
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -622,14 +572,48 @@
                     </div>
                     <!-- end row -->
                 </div>
+                <br />
+                
+                <div style="text-align: center;">
+                    <button class="btn btn-info" onclick="location.href='Impuestos.html'">Ver Impuestos a Pagar</button>
+                </div>
+                <br />
+                <br />
                 <!-- container-fluid -->
-            </div>
+                <!-- Cotización Section -->
+                
 
+            <!-- End Page-content -->
+
+
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © Clivax.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/"
+                                    target="_blank" class="text-muted">Codebucks</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- end main content-->
+
+    </div>
     <!-- END layout-wrapper -->
 
 
     <div class="custom-setting bg-primary pe-0 d-flex flex-column rounded-start">
-        <button type="button" class="btn btn-wide border-0 text-white fs-20 avatar-sm rounded-end-0" id="light-dark-mode">
+        <button type="button" class="btn btn-wide border-0 text-white fs-20 avatar-sm rounded-end-0"
+            id="light-dark-mode">
             <i class="mdi mdi-brightness-7 align-middle"></i>
             <i class="mdi mdi-white-balance-sunny align-middle"></i>
         </button>
@@ -706,7 +690,8 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-success"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">Revisar Inventario <span class="badge badge-label-success">pendiente</span></p>
+                                    <p class="mb-0">Revisar Inventario <span
+                                            class="badge badge-label-success">pendiente</span></p>
                                     <span class="text-muted">2 mins</span>
                                 </div>
                             </div>
@@ -724,7 +709,8 @@
                             <div class="timeline-pin"><i class="marker marker-dot text-danger"></i></div>
                             <div class="timeline-content">
                                 <div class="d-flex justify-content-between">
-                                    <p class="mb-0">Actualización del sistema<span class="badge badge-label-danger">urgente</span></p>
+                                    <p class="mb-0">Actualización del sistema<span
+                                            class="badge badge-label-danger">urgente</span></p>
                                     <span class="text-muted">10 mins</span>
                                 </div>
                             </div>
@@ -759,13 +745,16 @@
                                             <span>Reunión de Equipo</span>
                                             <div class="avatar-group ms-2">
                                                 <div class="avatar avatar-circle">
-                                                    <img src="assets/images/users/avatar-1.png" alt="Avatar image" class="avatar-2xs" />
+                                                    <img src="assets/images/users/avatar-1.png" alt="Avatar image"
+                                                        class="avatar-2xs" />
                                                 </div>
                                                 <div class="avatar avatar-circle">
-                                                    <img src="assets/images/users/avatar-2.png" alt="Avatar image" class="avatar-2xs" />
+                                                    <img src="assets/images/users/avatar-2.png" alt="Avatar image"
+                                                        class="avatar-2xs" />
                                                 </div>
                                                 <div class="avatar avatar-circle">
-                                                    <img src="assets/images/users/avatar-3.png" alt="Avatar image" class="avatar-2xs" />
+                                                    <img src="assets/images/users/avatar-3.png" alt="Avatar image"
+                                                        class="avatar-2xs" />
                                                 </div>
                                             </div>
                                         </div>
@@ -782,7 +771,8 @@
                                     <span class="timeline-time">14:00</span>
                                     <div class="timeline-pin"><i class="marker marker-circle text-danger"></i></div>
                                     <div class="timeline-content">
-                                        <p class="mb-0">Actualizar Inventario <a href="GestionProductos.html">Inventario</a></p>
+                                        <p class="mb-0">Actualizar Inventario <a
+                                                href="GestionProductos.html">Inventario</a></p>
                                     </div>
                                 </div>
                                 <div class="timeline-item">
@@ -805,8 +795,6 @@
             <script src="assets/libs/simplebar/simplebar.min.js"></script>
             <script src="assets/libs/node-waves/waves.min.js"></script>
 
-            <!-- apexcharts -->
-            <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
             <!-- Required datatable js -->
             <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
             <script src="assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
@@ -815,13 +803,9 @@
             <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
             <script src="assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
 
-            <!-- contact init js -->
-            <script src="assets/js/pages/profile.init.js"></script>
-
             <!-- Datatable init js -->
             <script src="assets/js/pages/datatables-base.init.js"></script>
 
-            <!-- App js -->
             <script src="assets/js/app.js"></script>
 
 </body>
