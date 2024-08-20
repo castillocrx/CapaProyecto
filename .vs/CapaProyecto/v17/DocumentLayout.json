@@ -1,154 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\Source\\Repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Stock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\Stock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Clientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\Clientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Facturas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\Facturas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Personal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\Personal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,11 +22,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 87,
+          "SelectedChildIndex": 56,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -171,6 +55,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -354,10 +242,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             },
             {
@@ -365,492 +249,42 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Stock.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Stock.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\Stock.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Stock.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\Stock.html",
-              "ViewState": "AgIAALcBAAAAAAAAAAAmwMoBAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsuarioEliminado.html",
+              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
+              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
+              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
+              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:52:01.555Z",
+              "WhenOpened": "2024-08-20T07:55:02.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AgregarFactura.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\AgregarFactura.html",
-              "ViewState": "AgIAALgBAAAAAAAAAAAmwL8BAAAhAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioAgregado.html",
+              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
+              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
+              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
+              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:49:51.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AgregarProducto.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\AgregarProducto.html",
-              "ViewState": "AgIAALgBAAAAAAAAAAAmwMEBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:49:40.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DatosGuardados.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\DatosGuardados.html",
-              "ViewState": "AgIAAPwBAAAAAAAAAAAmwA8CAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:49:06.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatosPerfilUsuarios.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\DatosPerfilUsuarios.html",
-              "ViewState": "AgIAAPwBAAAAAAAAAAAmwA8CAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:48:49.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EditarCotizacion.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EditarCotizacion.html",
-              "ViewState": "AgIAALYBAAAAAAAAAAAYwMABAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:48:29.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditarDatos.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EditarDatos.html",
-              "ViewState": "AgIAALcBAAAAAAAAAAAYwMsBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:48:17.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditarFactura.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EditarFactura.html",
-              "ViewState": "AgIAALYBAAAAAAAAAAAYwMoBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:48:05.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EditarProducto.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EditarProducto.html",
-              "ViewState": "AgIAALcBAAAAAAAAAAAYwMsBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:47:52.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EliminarCotizacion.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EliminarCotizacion.html",
-              "ViewState": "AgIAAOkBAAAAAAAAAAAYwP0BAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:47:36.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EliminarFactura.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EliminarFactura.html",
-              "ViewState": "AgIAAOoBAAAAAAAAAAAYwP4BAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:47:12.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EliminarProducto.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EliminarProducto.html",
-              "ViewState": "AgIAAOUBAAAAAAAAAADwv/oBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:46:59.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EliminarUsuario.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EliminarUsuario.html",
-              "ViewState": "AgIAAOkBAAAAAAAAAADwv/4BAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:46:46.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FacturaAgregada.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\FacturaAgregada.html",
-              "ViewState": "AgIAAPgBAAAAAAAAAADwvw0CAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:46:35.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FacturaEliminada.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\FacturaEliminada.html",
-              "ViewState": "AgIAAOkBAAAAAAAAAADwv/IBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:46:22.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Facturas.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Facturas.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\Facturas.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Facturas.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\Facturas.html",
-              "ViewState": "AgIAAKkBAAAAAAAAAADwv8QBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:46:07.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "form-EditarPerfil.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\form-EditarPerfil.html",
-              "ViewState": "AgIAALMBAAAAAAAAAAAqwL4BAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:45:36.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Personal.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Personal.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\Personal.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Personal.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\Personal.html",
-              "ViewState": "AgIAALkBAAAAAAAAAAAqwMQBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:44:54.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductoEliminado.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ProductoEliminado.html",
-              "ViewState": "AgIAAOcBAAAAAAAAAAAqwPQBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:44:34.445Z",
+              "WhenOpened": "2024-08-20T07:54:11.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ResumenFinanciero.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
+              "DocumentMoniker": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
               "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
+              "ToolTip": "C:\\Users\\heaa1\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
               "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ResumenFinanciero.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACgAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:44:25.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ui-ComprasRealizadas.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-ComprasRealizadas.html",
-              "ViewState": "AgIAALMBAAAAAAAAAAAqwL4BAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:44:11.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ui-EstadoPedidos.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidos.html",
-              "ViewState": "AgIAALMBAAAAAAAAAAAgwL8BAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:43:51.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ui-ReporteCompras.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-ReporteCompras.html",
-              "ViewState": "AgIAALMBAAAAAAAAAAAgwMABAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:43:32.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ui-ReporteComprasMensual.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-ReporteComprasMensual.html",
-              "ViewState": "AgIAALEBAAAAAAAAAAAgwMkBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:43:17.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UsuarioAgregado.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioAgregado.html",
-              "ViewState": "AgIAAPYBAAAAAAAAAAAgwAMCAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:42:57.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UsuarioEliminado.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\UsuarioEliminado.html",
-              "ViewState": "AgIAAOUBAAAAAAAAAAAgwPIBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:42:43.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "form-NuevoUsuario.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\form-NuevoUsuario.html",
-              "ViewState": "AgIAAKgBAAAAAAAAAAAYwKkBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T03:41:55.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReporteVentas.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\Source\\Repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html",
-              "ToolTip": "C:\\Users\\maryg\\Source\\Repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ReporteVentas.html",
-              "ViewState": "AgIAAL4BAAAAAAAAAAAAALMBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T02:51:02.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ui-EstadoPedidosClientes.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-EstadoPedidosClientes.html",
-              "ViewState": "AgIAAKwBAAAAAAAAAAAIwL8BAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T02:25:21.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ui-CotizacionesRealizadas.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ui-CotizacionesRealizadas.html",
-              "ViewState": "AgIAALQBAAAAAAAAAAAIwMMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T02:18:37.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GestionProductos.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\GestionProductos.html",
-              "ViewState": "AgIAALIBAAAAAAAAAAAIwMUBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T02:13:22.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Clientes.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Clientes.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\Clientes.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Clientes.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\Clientes.html",
-              "ViewState": "AgIAAMABAAAAAAAAAAAIwMMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:45:12.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClienteEliminado.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\ClienteEliminado.html",
-              "ViewState": "AgIAANsBAAAAAAAAAAAIwPEBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:43:47.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "EliminarCliente.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\EliminarCliente.html",
-              "ViewState": "AgIAAOMBAAAAAAAAAAAIwPEBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:39:31.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "form-NuevoCliente.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\form-NuevoCliente.html",
-              "ViewState": "AgIAAFICAAAAAAAAAAAmwF4CAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:31:18.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\index.html",
-              "ViewState": "AgIAALkBAAAAAAAAAAAAAKkBAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:31:18.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Cotizaciones.html",
-              "DocumentMoniker": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html",
-              "RelativeDocumentMoniker": "Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html",
-              "ToolTip": "C:\\Users\\maryg\\source\\repos\\CapaProyecto\\Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html",
-              "RelativeToolTip": "Clivax_v1.0.0\\HTML\\dist\\Cotizaciones.html",
-              "ViewState": "AgIAALYBAAAAAAAAAAAIwMMBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-20T01:31:18.515Z",
+              "WhenOpened": "2024-08-20T04:39:43.346Z",
               "EditorCaption": ""
             }
           ]
