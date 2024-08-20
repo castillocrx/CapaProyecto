@@ -295,10 +295,9 @@
                         </li>
 
                         <!--Inventario-->
-                        <li class="menu-title">Gestión Inventario</li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-store"></i>
                                 <span>Inventario</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -307,11 +306,12 @@
 
                             </ul>
                         </li>
+
                         <!--Informes Financieros-->
                         <li class="menu-title">Informes Financieros</li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-newspaper"></i>
                                 <span>Facturas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -321,20 +321,31 @@
 
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-file-contract"></i>
                                 <span>Resumen Financiero</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ResumenFinanciero.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>ResumenFinanciero</a></li>
+                                <li><a href="ResumenFinanciero.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Resumen Financiero</a></li>
                             </ul>
                         </li>
 
+                        <!--Impuestos-->
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-percent"></i>
+                                <span>Impuestos</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="Impuestos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Ver Impuestos</a></li>
+                                <li><a href="HistorialDeImpuestos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Historial de Impuestos</a></li>
+                            </ul>
+                        </li>
                         <!--Cotizaciones-->
 
                         <li class="menu-title">Cotizaciones y Ventas</li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-address-card"></i>
                                 <span>Clientes</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -345,7 +356,7 @@
                         </li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-coins"></i>
                                 <span>Cotizaciones</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -356,18 +367,17 @@
                         </li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
-                                <i class="fa fa-window-restore"></i>
+                                <i class="fas fa-money-bill"></i>
                                 <span>Ventas</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="ReporteVentas.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Datos de Ventas</a></li>
-
+                                <li><a href="VentaIngresos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Ver Ingresos de Venta</a></li>
 
                             </ul>
                         </li>
-
                         <!--Compras-->
-
+                        
                         <li class="menu-title">Compras</li>
 
                         <li>
@@ -473,7 +483,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title">Selección de Productos</h4>
+                                    <h4 class="card-title">Cotización de Productos</h4>
                                 </div>
                                 <div class="card-body">
                                     <table id="datatable" class="table table-hover table-bordered table-striped dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
@@ -485,7 +495,6 @@
                                                 <th>Stock</th>
                                                 <th>Categoria</th>
                                                 <th>Precio</th>
-                                                <th>Acción</th>
                                                 <th>Seleccionar</th>
                                                 <th>Pendiente de compra</th>
                                             </tr>
@@ -498,10 +507,6 @@
                                                 <td>25</td>
                                                 <td>Especialidad</td>
                                                 <td>₡7,500</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7500">
                                                 </td>
@@ -518,10 +523,6 @@
                                                 <td>Gourmet</td>
                                                 <td>₡5,200</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="5200">
                                                 </td>
                                                 <td>
@@ -535,10 +536,6 @@
                                                 <td>100</td>
                                                 <td>Común</td>
                                                 <td>₡3,800</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="3800">
                                                 </td>
@@ -554,10 +551,6 @@
                                                 <td>Especialidad</td>
                                                 <td>₡6,300</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="6300">
                                                 </td>
                                                 <td>
@@ -571,10 +564,6 @@
                                                 <td>50</td>
                                                 <td>Común</td>
                                                 <td>₡4,500</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="4500">
                                                 </td>
@@ -590,10 +579,6 @@
                                                 <td>Gourmet</td>
                                                 <td>₡6,800</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="6800">
                                                 </td>
                                                 <td>
@@ -607,10 +592,6 @@
                                                 <td>45</td>
                                                 <td>Especialidad</td>
                                                 <td>₡7,200</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7200">
                                                 </td>
@@ -626,10 +607,6 @@
                                                 <td>Común</td>
                                                 <td>₡3,500</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="3500">
                                                 </td>
                                                 <td>
@@ -643,10 +620,6 @@
                                                 <td>20</td>
                                                 <td>Gourmet</td>
                                                 <td>₡8,500</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="8500">
                                                 </td>
@@ -662,10 +635,6 @@
                                                 <td>Especialidad</td>
                                                 <td>₡6,000</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="6000">
                                                 </td>
                                                 <td>
@@ -679,10 +648,6 @@
                                                 <td>28</td>
                                                 <td>Gourmet</td>
                                                 <td>₡7,800</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7800">
                                                 </td>
@@ -698,10 +663,6 @@
                                                 <td>Común</td>
                                                 <td>₡4,200</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="4200">
                                                 </td>
                                                 <td>
@@ -715,10 +676,6 @@
                                                 <td>32</td>
                                                 <td>Especialidad</td>
                                                 <td>₡7,300</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7300">
                                                 </td>
@@ -734,10 +691,6 @@
                                                 <td>Común</td>
                                                 <td>₡3,900</td>
                                                 <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
-                                                <td>
                                                     <input type="checkbox" name="selectProduct" value="3900">
                                                 </td>
                                                 <td>
@@ -751,11 +704,6 @@
                                                 <td>22</td>
                                                 <td>Gourmet</td>
                                                 <td>₡7,600</td>
-                                                <td>
-
-                                                    <button class="btn btn-info" onclick="location.href='EditarProducto.html'">Editar Producto</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarProducto.html'">Eliminar</button>
-                                                </td>
                                                 <td>
                                                     <input type="checkbox" name="selectProduct" value="7600">
                                                 </td>
