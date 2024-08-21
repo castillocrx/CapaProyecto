@@ -333,6 +333,17 @@
                             </ul>
                         </li>
 
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow ">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>Costos</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="Costos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Gestion de Costos</a></li>
+                                <li><a href="ui-ReportesCostos.html"><i class="mdi mdi-checkbox-blank-circle align-middle"></i>Informe de Costos</a></li>
+                            </ul>
+                        </li>
+
                         <!--Impuestos-->
                         <li>
                             <a href="javascript: void(0);" class="has-arrow ">
@@ -472,133 +483,82 @@
         <!-- ============================================================== -->
         <div class="main-content">
 
-        </div>
-        <div class="row">
-            <div class="col-xxl-9">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-icon">
-                            <i class="fas fa-cart-plus fs-14 text-muted"></i>
-                        </div>
-                        <h4 class="card-title mb-0">Ventas Generales</h4>
-                        <div class="dropdown card-addon">
-                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="mdi mdi-dots-sidebar"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ventas por categoría</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Pedidos</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ganancias</a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">Ventas</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Total de ventas</p>
-                                        <h5 class="mb-0">₡34,254</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>2.2%
-                                    </div>
-                                </div>
-                            </div>
+            <div class="page-content">
+                <div class="container-fluid">
 
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Última Venta</p>
-                                        <h5 class="mb-0">₡12,253</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>2.1%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="d-flex justify-content-between align-content-end shadow-lg p-3">
-                                    <div>
-                                        <p class="text-muted text-truncate mb-2">Gastos</p>
-                                        <h5 class="mb-0">-₡10</h5>
-                                    </div>
-                                    <div class="text-success float-end">
-                                        <i class="mdi mdi-menu-up"> </i>1.8%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div id="sales_figures" data-colors='["--bs-info", "--bs-success"]' class="apex-charts" dir="ltr"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="card bg-danger-subtle" style="background: url('assets/images/dashboard/dashboard-shape-1.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-danger">
-                                        <i class="mdi mdi-buffer mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-danger mb-1">Saldo Total</p>
-                                        <h4 class="mb-0">₡1,452.55</h4>
-                                    </div>
-                                </div>
-                                <div class="hstack gap-2 mt-3">
-                                    <button class="btn btn-light">Aceptar</button>
-                                    <button class="btn btn-info">Verificar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="card bg-success-subtle" style="background: url('assets/images/dashboard/dashboard-shape-2.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-success">
-                                        <i class="mdi mdi-cash-usd-outline mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-success mb-1">Próximos pagos</p>
-                                        <h4 class="mb-0">₡120</h4>
-                                    </div>
-                                </div>
-                                <div class="mt-3 mb-2">
-                                    <p class="mb-0">4 no confirmados</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="card bg-info-subtle" style="background: url('assets/images/dashboard/dashboard-shape-3.png'); background-repeat: no-repeat; background-position: bottom center; ">
-                            <div class="card-body">
-                                <div class="d-flex">
-                                    <div class="avatar avatar-sm avatar-label-info">
-                                        <i class="mdi mdi-webhook mt-1"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <p class="text-info mb-1">Ventas realizadas.</p>
-                                        <h4 class="mb-0">72</h4>
-                                    </div>
-                                </div>
-                                <div class="mt-3 mb-2">
-                                    <p class="mb-0"><span class="text-primary me-2 fs-14"><i class="fas fa-caret-up me-1"></i>3.4%</span>vs último mes</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-sm-0">Reportes de Compras</h4>
 
-                <!-- container-fluid -->
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Compras</a></li>
+                                        <li class="breadcrumb-item active">Reportes Empresa</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reporte actual -->
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title mb-0">Reporte Actual</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <div id="chart-syncing-line" data-colors='["--bs-primary"]' class="apex-charts" dir="ltr"></div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end card -->
+                        </div>
+                        <!-- end col -->
+
+                    </div>
+
+                    <!-- Reporte segun el mes que se desea -->
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title mb-0">Reporte Proveedores</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div id="line_chart_basic" data-colors='["--bs-info"]' class="apex-charts" dir="ltr"></div>
+                                </div><!-- end card-body -->
+                            </div><!-- end card -->
+                        </div>
+                    </div>
+
+                    <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © Clivax.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-end d-none d-sm-block">
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/" target="_blank" class="text-muted">Codebucks</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
+            <!-- end main content-->
+
+        </div>
             <!-- End Page-content -->
 
             <footer class="footer">
