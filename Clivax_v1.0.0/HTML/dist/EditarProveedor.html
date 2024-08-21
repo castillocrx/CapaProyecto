@@ -4,18 +4,12 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Cotizaciones Realizadas | Altos del Abejonal</title>
+    <title>Editar Proveedor | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/AltosAbejonal.jpeg">
-
-    <!-- DataTables -->
-    <link href="assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
-
-    <!-- Responsive datatable examples -->
-    <link href="assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />
 
 
     <!-- dark layout js -->
@@ -82,7 +76,7 @@
                         <!--Start App Search-->
                         <form class="app-search d-none d-lg-block">
                             <div class="position-relative">
-                                <input type="text" class="form-control" placeholder="Search...">
+                                <input type="text" class="form-control" placeholder="Buscar">
                                 <span class="fab fa-sistrix fs-17 align-middle"></span>
                             </div>
                         </form>
@@ -433,6 +427,7 @@
                             </ul>
                         </li>
 
+
                         <!--Otras Páginas-->
                         <li class="menu-title">Páginas</li>
 
@@ -486,12 +481,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Cotizaciones Realizadas</h4>
+                                <h4 class="mb-sm-0">Información del Proveedor</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Cotizaciones Y Ventas</a></li>
-                                        <li class="breadcrumb-item active">Cotizaciones</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Gestión de Proveedores</a></li>
+                                        <li class="breadcrumb-item active">Agregar Proveedor</li>
                                     </ol>
                                 </div>
 
@@ -501,456 +496,98 @@
                     <!-- end page title -->
 
                     <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="text-muted">Se muestran las cotizaciones realizadas por la empresa.</p>
-
-                                    <table id="datatable-row-callback" class="table table-hover table-bordered table-striped dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-                                        <thead>
-                                            <tr>
-                                                <th>ID Cotización</th>
-                                                <th>Cliente</th>
-                                                <th>Fecha</th>
-                                                <th>Producto</th>
-                                                <th>Cantidad</th>
-                                                <th>Precio Total</th>
-                                                <th>Acción</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Mariana</td>
-                                                <td>13-10-2022</td>
-
-                                                <td>Capuccino</td>
-                                                <td>300</td>
-                                                <td>₡320,800</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Mónica</td>
-                                                <td>17-08-2024</td>
-
-                                                <td>Café Arábica</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Jafeth</td>
-                                                <td>16-08-2024</td>
-
-                                                <td>Café Robusta</td>
-                                                <td>75</td>
-                                                <td>₡225,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Heydi</td>
-                                                <td>15-08-2024</td>
-
-                                                <td>Café Expreso</td>
-                                                <td>60</td>
-                                                <td>₡180,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Ariana</td>
-                                                <td>14-08-2024</td>
-
-                                                <td>Café Orgánico</td>
-                                                <td>40</td>
-                                                <td>₡120,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Emma</td>
-                                                <td>13-08-2024</td>
-
-                                                <td>Café Descafeinado</td>
-                                                <td>30</td>
-                                                <td>₡90,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Gerald</td>
-                                                <td>12-08-2024</td>
-
-                                                <td>Café Molido</td>
-                                                <td>45</td>
-                                                <td>₡135,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>Fabian</td>
-                                                <td>11-08-2024</td>
-
-                                                <td>Café en Grano</td>
-                                                <td>80</td>
-                                                <td>₡240,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>Ernesto</td>
-                                                <td>10-08-2024</td>
-
-                                                <td>Café Tostado</td>
-                                                <td>55</td>
-                                                <td>₡165,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>Luis</td>
-                                                <td>09-08-2024</td>
-
-                                                <td>Café Mezcla</td>
-                                                <td>70</td>
-                                                <td>₡210,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>10</td>
-                                                <td>Carlos</td>
-                                                <td>08-08-2024</td>
-
-                                                <td>Café Premium</td>
-                                                <td>65</td>
-                                                <td>₡195,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>11</td>
-                                                <td>Pedro</td>
-                                                <td>07-08-2024</td>
-                                                <td>Café de Altura</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>12</td>
-                                                <td>06-08-2024</td>
-                                                <td>Café La Reserva</td>
-                                                <td>Café de Altura</td>
-                                                <td>35</td>
-                                                <td>₡105,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>13</td>
-                                                <td>Gerardo</td>
-                                                <td>05-08-2024</td>
-
-                                                <td>Café Filtrado</td>
-                                                <td>60</td>
-                                                <td>₡180,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>14</td>
-                                                <td>Vivian</td>
-                                                <td>04-08-2024</td>
-
-                                                <td>Café Ligero</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>15</td>
-                                                <td>Fabricio</td>
-                                                <td>03-08-2024</td>
-
-                                                <td>Café Espresso</td>
-                                                <td>75</td>
-                                                <td>₡225,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>16</td>
-                                                <td>Finca del Valle</td>
-                                                <td>02-08-2024</td>
-
-                                                <td>Café Amargo</td>
-                                                <td>30</td>
-                                                <td>₡90,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>17</td>
-                                                <td>Café El Sendero</td>
-                                                <td>01-08-2024</td>
-
-                                                <td>Café Dulce</td>
-                                                <td>40</td>
-                                                <td>₡120,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>18</td>
-                                                <td>Café Vista Hermosa</td>
-                                                <td>31-07-2024</td>
-
-                                                <td>Café Americano</td>
-                                                <td>55</td>
-                                                <td>₡165,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>19</td>
-                                                <td>Café del Monte</td>
-                                                <td>30-07-2024</td>
-
-                                                <td>Café Cappuccino</td>
-                                                <td>45</td>
-                                                <td>₡135,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>20</td>
-                                                <td>Café Las Palmas</td>
-                                                <td>29-07-2024</td>
-
-                                                <td>Café Italiano</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>21</td>
-                                                <td>Café El Progreso</td>
-                                                <td>28-07-2024</td>
-
-                                                <td>Café Oscuro</td>
-                                                <td>65</td>
-                                                <td>₡195,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>22</td>
-                                                <td>Café La Esperanza</td>
-                                                <td>27-07-2024</td>
-
-                                                <td>Café Intenso</td>
-                                                <td>60</td>
-                                                <td>₡180,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>23</td>
-                                                <td>Café El Triunfo</td>
-                                                <td>26-07-2024</td>
-
-                                                <td>Café Ligero</td>
-                                                <td>70</td>
-                                                <td>₡210,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>24</td>
-                                                <td>Café Flor de Lis</td>
-                                                <td>25-07-2024</td>
-
-                                                <td>Café Especial</td>
-                                                <td>45</td>
-                                                <td>₡135,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>25</td>
-                                                <td>Café Vista Clara</td>
-                                                <td>24-07-2024</td>
-
-                                                <td>Café Ligero</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>26</td>
-                                                <td>Café Los Altos</td>
-                                                <td>23-07-2024</td>
-
-                                                <td>Café Dulce</td>
-                                                <td>40</td>
-                                                <td>₡120,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>27</td>
-                                                <td>Café del Sol</td>
-                                                <td>22-07-2024</td>
-
-                                                <td>Café Amargo</td>
-                                                <td>35</td>
-                                                <td>₡105,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>28</td>
-                                                <td>Café El Lucero</td>
-                                                <td>21-07-2024</td>
-
-                                                <td>Café Mezcla</td>
-                                                <td>80</td>
-                                                <td>₡240,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>29</td>
-                                                <td>Café Aurora</td>
-                                                <td>20-07-2024</td>
-
-                                                <td>Café de Altura</td>
-                                                <td>75</td>
-                                                <td>₡225,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>30</td>
-                                                <td>Café Horizonte</td>
-                                                <td>19-07-2024</td>
-
-                                                <td>Café Premium</td>
-                                                <td>50</td>
-                                                <td>₡150,000</td>
-                                                <td>
-                                                    <button class="btn btn-info" onclick="location.href='EditarCotizacion.html'">Editar Cotización</button>
-                                                    <button class="btn btn-danger" onclick="location.href='EliminarCotizacion.html'">Eliminar</button>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Editar Datos del Proveedor</h3>
                             </div>
-                        </div> <!-- end col -->
-                    </div>
+                            <div class="card-body">
+                                <form class="custom-validation" action="#">
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="text" id="provider-name" class="form-control" name="providerName" placeholder="Ingrese el nombre del proveedor" required />
+                                            <label for="provider-name" class="fw-normal">Nombre</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="text" id="contact-person" class="form-control" name="contactPerson" placeholder="Ingrese la persona de contacto" required />
+                                            <label for="contact-person" class="fw-normal">Persona de Contacto</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="text" id="address" class="form-control" name="address" placeholder="Ingrese la dirección" required />
+                                            <label for="address" class="fw-normal">Dirección</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="tel" id="phone" class="form-control" name="phone" placeholder="Ingrese el teléfono" required />
+                                            <label for="phone" class="fw-normal">Teléfono</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="email" id="email" class="form-control" name="email" placeholder="Ingrese el correo electrónico" required />
+                                            <label for="email" class="fw-normal">Correo Electrónico</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <select class="form-select" name="paymentTerms" required>
+                                            <option value="default">Seleccione las condiciones de pago</option>
+                                            <option value="30days">30 días</option>
+                                            <option value="60days">60 días</option>
+                                            <option value="90days">90 días</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <select class="form-select" name="currency" required>
+                                            <option value="default">Seleccione la moneda preferida</option>
+                                            <option value="CRC">₡ - CRC</option>
+                                            <option value="USD">$ - USD</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">Editar</button>
+
+                                    </div>
+                                    <br />
+                                    <a href="Proveedores.html" class="btn btn-primary">Regresar</a>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- end card -->
+                    </div> <!-- end col -->
                     <!-- end row -->
-                </div>
-                <!-- container-fluid -->
-            </div>
-            <!-- End Page-content -->
+                </div> <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
 
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © Clivax.
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="text-sm-end d-none d-sm-block">
-                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/" target="_blank" class="text-muted">Codebucks</a>
-                            </div>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <script>document.write(new Date().getFullYear())</script> © Clivax.
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end d-none d-sm-block">
+                            Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="http://codebucks.in/" target="_blank" class="text-muted">Codebucks</a>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </div>
+        </footer>
 
-        </div>
-        <!-- end main content-->
-
+    </div>
+    <!-- end main content-->
     </div>
     <!-- END layout-wrapper -->
 
@@ -1132,16 +769,9 @@
             <script src="assets/libs/simplebar/simplebar.min.js"></script>
             <script src="assets/libs/node-waves/waves.min.js"></script>
 
-            <!-- Required datatable js -->
-            <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-            <script src="assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+            <script src="assets/libs/parsleyjs/parsley.min.js"></script>
 
-            <!-- Responsive examples -->
-            <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-            <script src="assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"></script>
-
-            <!-- Datatable init js -->
-            <script src="assets/js/pages/datatables-advanced.init.js"></script>
+            <script src="assets/js/pages/form-validation.init.js"></script>
 
             <script src="assets/js/app.js"></script>
 

@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Cuenta Nacional Eliminada | Altos Del Abejonal</title>
+    <title>Eliminar Proveedor | Altos Del Abejonal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Codebucks" name="author" />
@@ -428,6 +428,7 @@
                             </ul>
                         </li>
 
+
                         <!--Otras Páginas-->
                         <li class="menu-title">Páginas</li>
 
@@ -479,11 +480,25 @@
                         <div class="col-xl-6">
                             <div class="card">
                                 <div class="card-header card-header-bordered">
-                                    <h3 class="card-title">Cuenta Eliminada!</h3>
+                                    <h3 class="card-title">Eliminar Proveedor</h3>
                                 </div>
                                 <div class="card-body pb-0">
-                                    <p class="text-muted">Este mensaje es una confirmación de la eliminación de la cuenta.</p>
-                                    <button class="btn btn-primary" onclick="location.href='CuentasNacionales.html'">Regresar</button>
+                                    <p class="text-muted">Atención, está apunto de eliminar a este proveedor!</p>
+                                    <div class="alert alert-danger">
+                                        <div class="alert-content">
+                                            <h4 class="alert-heading">Confirmar Eliminación de Proveedor</h4>
+                                            <p class="mb-0">Este proveedor quedará eliminado por completo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-align">
+                                        <button class="btn btn-danger"
+                                                onclick="location.href='ProveedorEliminado.html'">
+                                            Eliminar
+                                        </button>
+
+                                    </div>
+
+
 
                                 </div>
                             </div>
@@ -525,7 +540,6 @@
                         <span>RTL</span>
                     </button>
                 </div>
-
 
                 <!-- Rightbar Sidebar -->
                 <div class="offcanvas offcanvas-end" id="offcanvas-rightsidabar">
